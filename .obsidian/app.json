@@ -1,0 +1,8 @@
+{
+  "baseTheme": "obsidian",
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "Attachments",
+  "showUnsupportedFiles": false
+}
