@@ -24,4 +24,4 @@ Note: the Better Collective Google Workspace account can't be connected — that
 See [[Scheduled Briefs]].
 
 ## This vault
-Private GitHub repo; Claude clones/pushes from cloud sessions. Rules in [[Vault Conventions for Claude]].
+Private GitHub repo `MikeYEG/second-brain`; local copy on the Windows PC synced by the Obsidian Git plugin. Cowork sessions and the scheduled briefs (morning, end-of-day, weekly server check — all bound to the PC with this folder attached) write straight into the local vault and the Git plugin pushes; Code-tab cloud sessions with the repo attached push directly. Rules in [[Vault Conventions for Claude]] and the `vault` skill.

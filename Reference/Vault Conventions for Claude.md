@@ -18,6 +18,7 @@ Rules Claude follows when writing to this vault. Mirrors the `vault` skill.
 5. Commit with a message like `daily: 2026-09-03 — Truck Outfitters kickoff, QBO MCP prod keys` and push. Pull with rebase first; if a conflict hits a daily note, keep both sides.
 
 ## Scheduled briefs
+The briefs are Cowork scheduled tasks bound to Mike's PC with the vault folder attached — they edit files in place via device_bash and never run git; the Obsidian Git plugin pushes.
 Morning brief → fill the **Morning brief** section of today's note. End-of-day brief → fill **End of day**. Weekly health check → append a short summary under **Work log** on Monday.
 
 ## Style
