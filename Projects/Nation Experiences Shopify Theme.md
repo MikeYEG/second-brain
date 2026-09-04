@@ -22,3 +22,4 @@ First pass shipped 2026-09-04 on Shopify Horizon 4.1.5: Contiki-style tokens (Ar
 ## Log
 - 2026-09-04 — Reviewed Contiki, rebuilt the theme (3 commits), pushed to main.
 - 2026-09-04 — Demo store checked (draft theme preview), sync fixes pushed, Toronto example product added.
+- 2026-09-04 — Jasper product added; stock-photo placeholders and richer hero shipped (see "Stock photos" in docs/contiki-review.md).
