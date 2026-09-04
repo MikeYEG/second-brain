@@ -1,6 +1,6 @@
 ---
 type: home
-updated: 2026-09-03
+updated: 2026-09-04
 ---
 
 # Home
@@ -13,6 +13,7 @@ The map of everything. Keep this page short — it's a table of contents, not a 
 - [[40Two Technology Services Launch]] — Technology section on 40two.ca
 - [[Truck Outfitters Shopify Migration]] — WooCommerce → Shopify theme + AIMS sync app
 - [[TNN Analytics Warehouse]] — Airbyte + Postgres + Metabase for The Nation Network
+- [[Nation Experiences Shopify Theme]] — Contiki-style restyle of the Nation Experiences store
 - [[WooCommerce to Shopify Outreach]] — email campaign to WooCommerce stores
 - [[MSP Selection - Vancouver Client]] — helping a client pick an MSP
 - [[Government Contracts]] — pursuing federal/Alberta/municipal work
@@ -54,4 +55,5 @@ The map of everything. Keep this page short — it's a table of contents, not a 
 
 ## Recent daily notes
 
+- [[2026-09-04]]
 - [[2026-09-03]]
