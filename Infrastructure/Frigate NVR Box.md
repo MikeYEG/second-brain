@@ -2,7 +2,7 @@
 type: infrastructure
 status: active
 tags: [home, frigate, docker]
-updated: 2026-09-03
+updated: 2026-09-06
 ---
 
 
@@ -22,4 +22,7 @@ Four Reolink cameras — three "suite" yard cams + east balcony; detect on 896x5
 - Face recognition, semantic search, and LPR enabled
 - Cameras are roof-mounted (underside), so frontal faces aren't achievable. For "specific person on the property" alerting, use person-only zone alerts on the `nw_edge` zone of `reolink-suite-nw` → Home Assistant notification.
 - Wildlife labels tracked: deer, rabbit, fox (as coyote bucket), bear, horse — alongside person/pets/vehicles
-- MQTT to Home Assistant
+- MQTT to [[Home Assistant]] — broker is the Mosquitto add-on inside the HA VM; `mqtt: host:` must follow HA's IP
+
+## Log
+- 2026-09-06 — HA laptop died; MQTT broker offline until the [[Home Assistant]] VM is restored. Update `mqtt: host:` once the VM has its IP.

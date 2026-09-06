@@ -1,6 +1,6 @@
 ---
 type: home
-updated: 2026-09-04
+updated: 2026-09-06
 ---
 
 # Home
@@ -45,6 +45,8 @@ The map of everything. Keep this page short — it's a table of contents, not a 
 - [[Cloudways Hosting]] — client WordPress servers
 - [[TNN Analytics Droplet]] — Airbyte stack
 - [[Frigate NVR Box]] — home cameras
+- [[Home Assistant]] — HAOS VM on Proxmox, Zigbee, backups
+- [[Proxmox Host]] — home Proxmox VE box
 - [[Claude Integrations]] — connectors, MCP servers, scheduled tasks
 
 ## Reference
@@ -55,5 +57,6 @@ The map of everything. Keep this page short — it's a table of contents, not a 
 
 ## Recent daily notes
 
+- [[2026-09-06]]
 - [[2026-09-04]]
 - [[2026-09-03]]
