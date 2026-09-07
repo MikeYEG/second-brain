@@ -48,6 +48,7 @@ The map of everything. Keep this page short — it's a table of contents, not a 
 - [[Home Assistant]] — HAOS VM on Proxmox, Zigbee, backups
 - [[Proxmox Host]] — home Proxmox VE box
 - [[Claude Integrations]] — connectors, MCP servers, scheduled tasks
+- [[Vercel and Supabase]] — personal Vercel team, Supabase Pro org, v0, domains, cost baseline
 
 ## Reference
 
