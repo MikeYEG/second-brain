@@ -2,7 +2,7 @@
 type: infrastructure
 status: active
 tags: [40two, cloudways, wordpress]
-updated: 2026-09-03
+updated: 2026-09-07
 ---
 
 
@@ -24,3 +24,6 @@ Managed WP hosting + maintenance: $50–$85 CAD/site/month.
 
 ## Links
 [[Claude Integrations]] · [[Disrupt Dial]]
+
+## Log
+- 2026-09-07 — Weekly check: all 3 servers healthy (CS-1 disk 65%); 4 apps with critical vulns (WP core RCE 9.1, ManageWP Worker auth bypass 9.8, AIO WP Migration RCE 8.8): OLD-insulationsnakes.com, Cold-fix.com, simplysuperfly.com (CS-2 duplicate), rsbjr.ca. Copilot insights need a subscription.
