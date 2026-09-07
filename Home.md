@@ -1,6 +1,6 @@
 ---
 type: home
-updated: 2026-09-06
+updated: 2026-09-07
 ---
 
 # Home
@@ -21,6 +21,7 @@ The map of everything. Keep this page short — it's a table of contents, not a 
 - [[Job Search]] — Indeed monitoring, CTO / VP Tech roles
 - [[LinkedIn Content]] — low-friction posting workflow
 - [[MainWP Evaluation]] — replacing ManageWP
+- [[Waffle House Board]] — Facebook giveaway tracker (personal; static Vercel + JSON record)
 
 ## Ideas & paused
 
