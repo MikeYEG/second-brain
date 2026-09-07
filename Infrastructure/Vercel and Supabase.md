@@ -27,5 +27,6 @@ Vercel and Supabase MCP connectors in Claude (personal scope — cannot see the 
 
 ## Log
 - 2026-09-07 — Cost review of Vercel + Supabase from receipts and live API data; recommendations above, nothing changed yet.
+- 2026-09-07 — Keep-alive cron added to TournamentCaddy (uncommitted); the existing daily auction-winner-emails cron also touches the DB. Hobby plan = max 2 crons/project, both now used. L11 intentionally left to auto-pause (90-day restore window; export zip is its archive).
 - 2026-09-07 — Org downgraded to Free; 4 projects deleted, 2 kept. Open: keep-alive for the two Free projects vs. accept auto-pause; idea floated of moving L11/TournamentCaddy DBs to the NHL Fantasy DO droplet.
 - 2026-09-07 — Logical export of all 5 active Supabase projects (schema.sql + data.sql + checksums per project, restore-tested) delivered as `supabase-export-2026-09-07.zip` via Cowork. Not in the vault. showcade (paused) not exported. TournamentCaddy has fresh migrations (024–030, Sep 2–3) — treat as active, not idle. v0: Premium renews Sep 13; $51 purchased credit needs a paid plan to spend (refund via vercel.com/help).
