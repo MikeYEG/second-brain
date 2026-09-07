@@ -2,7 +2,7 @@
 type: project
 status: active
 tags: [40two, business]
-updated: 2026-09-03
+updated: 2026-09-07
 ---
 
 
@@ -40,4 +40,5 @@ Shopify store setup and migrations (migrations from $3,500 CAD), website design,
 - [[AI Field Guide Series]]
 
 ## Log
+- 2026-09-07 — Plugin licence review: 21% recovery on $2.35k of plugin spend; workbook in Cowork chat; opportunities ≈ $3.8k/yr recurring + $557 one-time (Sunset, Involvi, Head Office, Elementor pass-through, ThemePunch renewals).
 - 2026-09-03 — Vault created; project pages seeded from working memory.
