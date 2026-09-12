@@ -1,6 +1,6 @@
 ---
 type: home
-updated: 2026-09-07
+updated: 2026-09-12
 ---
 
 # Home
@@ -22,6 +22,7 @@ The map of everything. Keep this page short — it's a table of contents, not a 
 - [[LinkedIn Content]] — low-friction posting workflow
 - [[MainWP Evaluation]] — replacing ManageWP
 - [[Waffle House Board]] — Facebook giveaway tracker (personal; static Vercel + JSON record)
+- [[DeWalt & Husky Deal Watch]] — daily tool price watch (personal; Claude artifact + vault history)
 
 ## Ideas & paused
 
