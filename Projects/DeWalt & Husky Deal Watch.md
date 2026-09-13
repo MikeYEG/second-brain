@@ -2,7 +2,7 @@
 type: project
 status: active
 tags: [tools, price-watch, automation, personal]
-updated: 2026-09-12
+updated: 2026-09-13
 ---
 
 
@@ -12,7 +12,7 @@ Daily price watch on DeWalt 60V FlexVolt batteries and bare tools, and Husky 61"
 
 ## Current state
 - Scheduled task `Daily tool deal watch (DeWalt 60V / Husky bench)` runs 9:00 AM Edmonton daily: re-reads every tracked SKU in a browser, sweeps the other retailers, rewrites the JSON data block in a published Claude artifact, and republishes to the same URL.
-- 28 tracked items across three groups — batteries (11), 60V bare tools & attachments (9), Husky benches (8).
+- 31 tracked items across three groups — batteries (11), 60V bare tools & attachments (12), Husky benches (8).
 - The artifact is the live view; `Projects/Deal Watch Data/` is the durable record. Step 6 of the task writes it on every run (added 2026-09-12).
 
 ## Open items
@@ -33,6 +33,7 @@ Daily price watch on DeWalt 60V FlexVolt batteries and bare tools, and Husky 61"
 - 2026-09-10: found the DCS578B bare saw on Amazon at $278, well under Home Depot and KMS. Added DCST972B ($299) and the gloss-white 61" bench at $928 — first bench under the $999 line.
 - 2026-09-11: added DCS781X1 miter saw kit ($999, 20% off) and the matte-grey 72" bench after the black went out of stock. 61" matte-black bench restocked at $1,198.
 - 2026-09-12: Amazon cut the DCS578B bare saw $278 → $269 (Power Tools Inc, 10 left), the only tracked price that moved. Both 72" heavy-duty benches now out of stock online. Added DCB6112 12Ah ($429, in stock Windermere), DCS781B bare 12" miter saw ($969), and a genuine DCB609 on Amazon ($334). History exported to the vault for the first time and the daily task wired to keep it current.
+- 2026-09-13: no tracked price moved — all 31 items held and no new target cleared. Added three bare 60V brushless tools Home Depot stocks at Windermere (aisle 16, bay 004): DCS578B circular saw $369, DCS389B reciprocating saw $369, DCG418B grinder $329 — all regular price, none flag. The Home Depot DCS578B finally gives the Amazon listing a same-tool reference: $269 is $100 under the shelf price. Noted but not tracked: the 4-port 12V/20V/FlexVolt fast charger is cut to $228 from $349 at both Home Depot and Rona.
 
 ## Links
 [[Claude Integrations]] · [[Scheduled Briefs]]
