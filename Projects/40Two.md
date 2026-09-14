@@ -2,7 +2,7 @@
 type: project
 status: active
 tags: [40two, business]
-updated: 2026-09-07
+updated: 2026-09-14
 ---
 
 
@@ -40,5 +40,6 @@ Shopify store setup and migrations (migrations from $3,500 CAD), website design,
 - [[AI Field Guide Series]]
 
 ## Log
+- 2026-09-14 — Full hosting & licence audit (Cloudways × Elementor library × ManageWP × QBO). Recurring gap up to ~$249/mo (DDTC, Involvi, Insulation Snakes WP at $83); ThemePunch $240.88 renews 2026-09-27 unbilled to Impact Graphics; LayerSlider + Motion.page ($151.52/yr) likely unused; 3 TNN sites on the Elementor licence; Namecheap client domains never rebilled. Artifact: "40Two Hosting & Licence Audit". Supersedes the Sep 7 workbook.
 - 2026-09-07 — Plugin licence review: 21% recovery on $2.35k of plugin spend; workbook in Cowork chat; opportunities ≈ $3.8k/yr recurring + $557 one-time (Sunset, Involvi, Head Office, Elementor pass-through, ThemePunch renewals).
 - 2026-09-03 — Vault created; project pages seeded from working memory.
