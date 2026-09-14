@@ -2,7 +2,7 @@
 type: project
 status: active
 tags: [40two, shopify, client-work]
-updated: 2026-09-13
+updated: 2026-09-14
 ---
 
 
@@ -38,3 +38,4 @@ Terms: 25% deposit on the custom app work and 25% deposit on the Shopify work.
 - 2026-09 — Quotes sent; kickoff.
 - 2026-09-11/12 — Sync tool rewritten for the new AIMS export (config-driven layout, server-side images, `validate` proves the config files against real headers); e2e dry run 363 creates; merged + pushed. Decision: [[2026-09-11 AIMS export layout lives in config files]].
 - 2026-09-13 — GO-LIVE: kit 0300e7c on the AIMS server, 362 products created, nightly task scheduled 23:00. Images pending (WinSCP seed of 223 from accessorywarehouse.ca; 209 need WCS). Decision: launch without images.
+- 2026-09-14 — Products were unpublished: built publish-on-create + `publish` catch-up, and Slack notifications per store; merged Mike's two fixes; kit 2e89a5f signed (1069 tests). Deploy + push pending.
