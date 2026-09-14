@@ -2,7 +2,7 @@
 type: project
 status: active
 tags: [40two, shopify, client-work]
-updated: 2026-09-12
+updated: 2026-09-13
 ---
 
 
@@ -22,8 +22,8 @@ Terms: 25% deposit on the custom app work and 25% deposit on the Shopify work.
 - Theme should stay close to the current WooCommerce look.
 
 ## Current state
-- **Sync tool:** rewritten for the new AIMS export format and merged to `master` 2026-09-12 (`0300e7c`, 863 tests). One `AimsSync.exe` (setup wizard + nightly sync), kit = exe + `export-format.json` + `store-eagle.json` + 2 docs. Deployment home on the AIMS server is `C:\AIMS-Sync`; nothing has run there yet.
-- **Go-live gates:** first supervised live sync on the new store (51wnwt0m) — media behaviour on `productSet` with/without `files`; the Shopify-side prerequisites from Sep 8–10 (cab-size list metafield, custom app, bed-accessories collection).
+- **Sync tool: LIVE.** Kit `0300e7c` deployed to `C:\AIMS-Sync` on the AIMS server 2026-09-13; first sync created 362 Eagle products on the new store (51wnwt0m); nightly task `AIMS Shopify Sync (eagle)` at 23:00. Export read from `E:\aims\ver72\aims-interface\website.new\webexport`. Products have no images yet (none on the server) — see Open questions.
+- **Watch on the first image night:** an update carrying `files` must not duplicate media; an update without must not clear it (§15 of the runbook).
 - **Store migration / theme:** kickoff held Sep 2026.
 
 ## Open questions
@@ -37,3 +37,4 @@ Terms: 25% deposit on the custom app work and 25% deposit on the Shopify work.
 ## Log
 - 2026-09 — Quotes sent; kickoff.
 - 2026-09-11/12 — Sync tool rewritten for the new AIMS export (config-driven layout, server-side images, `validate` proves the config files against real headers); e2e dry run 363 creates; merged + pushed. Decision: [[2026-09-11 AIMS export layout lives in config files]].
+- 2026-09-13 — GO-LIVE: kit 0300e7c on the AIMS server, 362 products created, nightly task scheduled 23:00. Images pending (WinSCP seed of 223 from accessorywarehouse.ca; 209 need WCS). Decision: launch without images.
