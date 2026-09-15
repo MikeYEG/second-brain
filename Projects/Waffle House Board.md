@@ -2,7 +2,7 @@
 type: project
 status: active
 tags: [personal, data, facebook, vercel]
-updated: 2026-09-14
+updated: 2026-09-15
 ---
 
 # Waffle House Board
@@ -37,3 +37,4 @@ Track the Western Waffle House Facebook giveaway group (private, ~35.6K members)
 - 2026-09-07 — Comment capture (claims, house random assignments, Random Verified draw timestamps) for 14 boards; retail price table; fairness tests; EV calculator; what's-new feed; weekly trends; draw clock; claims panel; parser test suite (15 tests, real-post fixtures); ingest --dry-run; fixed "Phillips 5500" cash false positive and claim ranges ("24,49" is two spots, "25-26" a range).
 - 2026-09-08 — Daily run (581 draws, 9 retail prices added). Then fixed Tonight-tab staleness: group search filters on creation date and under-returns, so 14 of 16 open boards were 2 days old. Posts now record their permalink; `browser_refresh.js` (permalink subset of the scraper) + `wwh.py stale` re-read a board directly; `captured_at`, `signal` (last admin OPEN/FULL comment) and `open_called`/`open_est` (free spots already called in the comments); Tonight tab shows read-age per board, a freshness filter and struck-through called spots. New "WWH afternoon refresh" task at 2:15 PM MT. Tests 15 → 26.
 - 2026-09-14 — Week of Sep 7–13: 71 draws over 7 live nights, 92 boards posted ($205K pot, median $40/spot); on the 45 boards already drawn the house kept about 24% ($79.9K pot vs $60.6K prize value). Claims this week ran 515 picked by number / 57 random / 88 house-assigned, credit on 2%. Biggest wins: #23 Sebastien Gauvin, Progressive Jackpot Rd 45 (~$50.8K) and #114 Derek Dods, 1970 Dodge Challenger (~$17.5K). Greg on three boards (Multi-Mini, Switch 2, PS5), Mike none since Sep 3. Daily capture healthy; the only gap is the nightly Recipients post lagging the live.
+- 2026-09-15 — Parser fix: `cash_value()` was reading the karat mark in "...in 10K Gold" as a $10,000 stated prize, valuing the diamond-tennis-bracelet board at 2.19× return per dollar. Added a negative lookahead for gold karats + 3 regression assertions; the board now carries its $3,499 Peoples retail (0.77×). House ratio unchanged at 0.769. Also priced the Vortex Razor UHD 18x56 binoculars at $3,200.
