@@ -2,7 +2,7 @@
 type: project
 status: active
 tags: [tools, price-watch, automation, personal]
-updated: 2026-09-14
+updated: 2026-09-15
 ---
 
 
@@ -28,6 +28,7 @@ Daily price watch on DeWalt 60V FlexVolt batteries and bare tools, and Husky 61"
 - History files: `price-history.csv` is append-only, one row per SKU per day (`date, group, model, sku, retailer, price_cad, ah, packs`); `YYYY-MM-DD.json` is the full data block for that run. Backfilled 2026-09-12 covering 2026-09-08 onward. The artifact caps each item's in-page history at 60 entries, so the CSV outlives it.
 
 ## Log
+- 2026-09-15: no tracked price moved for a third day — every price the sweep could read held and no new target cleared. Added two bare 60V brushless tools Home Depot listed but the watch had missed: DCED472B attachment-capable edger $299 (the DCED472 kit already tracked is $449) and DCS520B 6-1/2" tracksaw $589, in stock at Windermere in aisle 16, bay 006 — both regular price, neither flags. The DCB6112 12Ah pack has a delivery option again (Sept 16) and the 61" matte-black bench now reads 0 at Windermere, delivery-only with ship-to-store still unavailable. Walmart.ca served a press-and-hold bot check instead of the listing, so its DCB612 row is carried forward from Sept 14 and marked unverified; Home Depot's flyer widget again rendered nothing.
 - 2026-09-08: watch opened; baseline pulled from Home Depot with the store set to Edmonton Windermere. Two markdowns on day one — DCB606 at 24% off, 72" Husky bench at 18% off.
 - 2026-09-09: widened past Home Depot. DCB612 at $328 from both KMS and Walmart, $91 under Home Depot. DCB609-2 picked up a markdown to $428 ($23.78/Ah).
 - 2026-09-10: found the DCS578B bare saw on Amazon at $278, well under Home Depot and KMS. Added DCST972B ($299) and the gloss-white 61" bench at $928 — first bench under the $999 line.
