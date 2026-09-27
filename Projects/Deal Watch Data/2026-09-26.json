@@ -1,0 +1,3482 @@
+{
+  "updated": "2026-09-26",
+  "store": "Home Depot Canada — Edmonton Windermere (T6W 0L8)",
+  "event": "Home Depot's calendar did not turn over: the online-only Must-See Deals week still ends Sept 30, the Pro Savings Event still ends Oct 7, and the Weekly Depot Drop still lists 35 items with no DEWALT and no Husky in the grid. Neither event carries 60V FlexVolt or Husky tool-storage pricing",
+  "coverage": [
+    {
+      "name": "Home Depot Canada",
+      "note": "Anchor — batteries, 60V tools, and the only source for Husky benches. All 36 tracked Home Depot SKUs held their price for a fourteenth straight day. Two supply moves worth recording: the DCB609C 9.0Ah battery-and-charger kit is down from 3 on the shelf to 2, and the $928 gloss-white 61-inch Husky — the only bench inside its target — has lost ship-to-store at Windermere, so it is now paid delivery only at $60 per case for Oct 1–3 where yesterday it shipped to the store free. The battery sweep returned 116 results across three pages and put every 60V markdown on a SKU already tracked (DCCS670X1 14%, DCS781X1 20%, DCPW1000B 9%, DCBL570B 8%), the rest being 20V packs and chargers. The 61-inch Husky search grew from 14 results to 15 with nothing at or under $999 except the tracked gloss white, and the 72-inch search returned 26 whose only non-tracked heavy-duty model, the stainless-top H72MWC15DL at $1,682, has itself gone out of stock online. Shelf position at Windermere: DCB606 3, DCB609 3, DCB609C 2, DCB609-2 4, DCB606-2 5, DCB6112 3, DCS578B 1, DCS389B 2, DCG418B 3, DCS520B 1, DCS781B 4, DCST972X1 3, DCBL777B 7, DCPW1000B and DCHT870B 5. The DCB612 is still a vague limited stock with delivery unavailable",
+      "state": "live"
+    },
+    {
+      "name": "Alberta Drywall & Stucco Supply",
+      "state": "live",
+      "note": "Edmonton contractor supplier at 6030 50 St NW. Every tracked row held on both price and stock for a fifth day — DCB606 $175 with 5, DCS388 $309.99 with 3, refurbished DCV585BR $395 with 5, refurbished DCD130B $279 with its last unit, DCBL770X1 bare tool $297 with 3, DCST970X1 bare tool $279 with 4, and the refurbished 21-inch snow blower kit at $1,099 with 3. All three sweeps are flat on yesterday: \"flexvolt 60v\" at 20 items, \"dewalt refurbished\" at 194, and \"refurbished 60v max\" at 45 with no refurbished 60V bare tool beyond the DCV585BR and DCD130B already tracked. The DCD130T1 mixer/drill kit is still $580 and still a kit rather than a bare tool, and the $315 DCD575-labelled \"Flex Volt 60V 7¼\" circular saw\" is still listed and still left off"
+    },
+    {
+      "name": "KMS Tools",
+      "note": "Full FlexVolt dealer with an Edmonton store. Re-checked Sept 26 and nothing moved — DCB612 $328 and DCS578B $398 both still badged Super Special under MAP pricing, the DCBL772X1 blower kit still $418 on Clearance, all three in stock online, and the Abbotsford counts identical to yesterday: 9 on the saw, 2 on the blower kit, still sold out on the DCB612. KMS's monthly Flipp flyer still runs to Oct 1 and still carries the only FlexVolt-branded flyer items in the postal code. An attempt to identify them against KMS's own catalogue failed today: its search page returned an empty body in the built-in browser",
+      "state": "live"
+    },
+    {
+      "name": "Grainger Canada",
+      "state": "live",
+      "note": "Supplying two packs, both unchanged on the dated markdown: DCB606 $205.99 from $350.94 and DCB612 $345.99 from $518.71, with the offer end date reading 30 Oct 2026 on both pages for a tenth day. The DCB606 price block needed a second, longer load before it rendered. Availability needs a postal code and both packs are flagged for special shipping"
+    },
+    {
+      "name": "Walmart.ca",
+      "note": "Read cleanly again on Sept 26 and the DCB612 is confirmed at $328, sold and shipped by Preston Hardware. The free seller delivery window slipped again, from Fri Oct 2 to Mon Oct 5. At $27.33/Ah it still ties KMS as the cheapest 12Ah pack on the board",
+      "state": "live"
+    },
+    {
+      "name": "Canadian Tire",
+      "note": "Re-swept Sept 26 and the answer has not changed. Both \"dewalt 60v\" and \"flexvolt 60v battery\" returned 2 results again, and a wider \"flexvolt\" search returned 11 whose own brand facet reads DEWALT 20V MAX for all 11 — a USB charging kit, a jobsite radio, a power station and 20V tools. No 60V pack, no bare 60V tool, no Husky",
+      "state": "none"
+    },
+    {
+      "name": "Amazon.ca",
+      "note": "The one real price move on the board today, and it is the wrong way: the DCS578B bare saw is up from $299 to $329 after the buy box passed to Impact Distribution. Delivery is FREE now rather than $14.94, so the landed cost goes from $313.94 to $329, and the listing reads plain in stock instead of 1 left — so the supply risk that has sat on this row for a week is gone and the discount went with it. It is still $40 under Home Depot's $369. The DCB609 is steady at $334 from the same seller, in stock with FREE delivery Oct 7–15, its fifteenth day at that landed cost",
+      "state": "live"
+    },
+    {
+      "name": "Rona / Lowe's",
+      "note": "Searched Sept 26 through the catalogue servlet: 100 results for \"dewalt flexvolt 60v\", with no 60V packs and no bare 60V tools among them. The lone FLEXVOLT hit is still the 12V/20V multiport fast charger",
+      "state": "none"
+    }
+  ],
+  "groups": [
+    {
+      "id": "batteries",
+      "retailer": "Home Depot",
+      "name": "DeWalt 60V FlexVolt Batteries",
+      "rule": "Flag ≤ $28/Ah · strong buy ≤ $24/Ah",
+      "unit": "Ah",
+      "items": [
+        {
+          "name": "Single pack",
+          "model": "DCB606",
+          "sku": "1001014215",
+          "url": "https://www.homedepot.ca/product/dewalt-20v-60v-max-flexvolt-6-0ah-battery/1001014215",
+          "price": 198,
+          "was": 259,
+          "ah": 6,
+          "packs": 1,
+          "stock": "3 on the shelf at Windermere — aisle 16, bay 002; delivery Sept 27, 24% off",
+          "history": [
+            [
+              "2026-09-08",
+              198.0
+            ],
+            [
+              "2026-09-09",
+              198.0
+            ],
+            [
+              "2026-09-10",
+              198.0
+            ],
+            [
+              "2026-09-11",
+              198.0
+            ],
+            [
+              "2026-09-12",
+              198.0
+            ],
+            [
+              "2026-09-13",
+              198.0
+            ],
+            [
+              "2026-09-14",
+              198.0
+            ],
+            [
+              "2026-09-15",
+              198.0
+            ],
+            [
+              "2026-09-16",
+              198.0
+            ],
+            [
+              "2026-09-17",
+              198.0
+            ],
+            [
+              "2026-09-18",
+              198.0
+            ],
+            [
+              "2026-09-19",
+              198.0
+            ],
+            [
+              "2026-09-20",
+              198.0
+            ],
+            [
+              "2026-09-21",
+              198.0
+            ],
+            [
+              "2026-09-22",
+              198.0
+            ],
+            [
+              "2026-09-23",
+              198.0
+            ],
+            [
+              "2026-09-24",
+              198.0
+            ],
+            [
+              "2026-09-25",
+              198.0
+            ],
+            [
+              "2026-09-26",
+              198.0
+            ]
+          ]
+        },
+        {
+          "name": "Two-pack",
+          "model": "DCB606-2",
+          "sku": "1001013684",
+          "url": "https://www.homedepot.ca/product/dewalt-flexvolt-dcb606-2-20v-60v-max-flexvolt-lithium-ion-6-0-ah-battery-2-pack-/1001013684",
+          "price": 379,
+          "was": null,
+          "ah": 12,
+          "packs": 2,
+          "stock": "In stock at Windermere — 5 on the shelf, front of aisle 16; free delivery Sept 28",
+          "history": [
+            [
+              "2026-09-08",
+              379.0
+            ],
+            [
+              "2026-09-09",
+              379.0
+            ],
+            [
+              "2026-09-10",
+              379.0
+            ],
+            [
+              "2026-09-11",
+              379.0
+            ],
+            [
+              "2026-09-12",
+              379.0
+            ],
+            [
+              "2026-09-13",
+              379.0
+            ],
+            [
+              "2026-09-14",
+              379.0
+            ],
+            [
+              "2026-09-15",
+              379.0
+            ],
+            [
+              "2026-09-16",
+              379.0
+            ],
+            [
+              "2026-09-17",
+              379.0
+            ],
+            [
+              "2026-09-18",
+              379.0
+            ],
+            [
+              "2026-09-19",
+              379.0
+            ],
+            [
+              "2026-09-20",
+              379.0
+            ],
+            [
+              "2026-09-21",
+              379.0
+            ],
+            [
+              "2026-09-22",
+              379.0
+            ],
+            [
+              "2026-09-23",
+              379.0
+            ],
+            [
+              "2026-09-24",
+              379.0
+            ],
+            [
+              "2026-09-25",
+              379.0
+            ],
+            [
+              "2026-09-26",
+              379.0
+            ]
+          ]
+        },
+        {
+          "name": "Single pack",
+          "model": "DCB609",
+          "sku": "1001032331",
+          "url": "https://www.homedepot.ca/product/dewalt-20v-60v-max-flexvolt-9-0-ah-battery/1001032331",
+          "price": 339,
+          "was": null,
+          "ah": 9,
+          "packs": 1,
+          "stock": "In stock at Windermere — aisle 16, bay 002; 3 on the shelf",
+          "history": [
+            [
+              "2026-09-08",
+              339.0
+            ],
+            [
+              "2026-09-09",
+              339.0
+            ],
+            [
+              "2026-09-10",
+              339.0
+            ],
+            [
+              "2026-09-11",
+              339.0
+            ],
+            [
+              "2026-09-12",
+              339.0
+            ],
+            [
+              "2026-09-13",
+              339.0
+            ],
+            [
+              "2026-09-14",
+              339.0
+            ],
+            [
+              "2026-09-15",
+              339.0
+            ],
+            [
+              "2026-09-16",
+              339.0
+            ],
+            [
+              "2026-09-17",
+              339.0
+            ],
+            [
+              "2026-09-18",
+              339.0
+            ],
+            [
+              "2026-09-19",
+              339.0
+            ],
+            [
+              "2026-09-20",
+              339.0
+            ],
+            [
+              "2026-09-21",
+              339.0
+            ],
+            [
+              "2026-09-22",
+              339.0
+            ],
+            [
+              "2026-09-23",
+              339.0
+            ],
+            [
+              "2026-09-24",
+              339.0
+            ],
+            [
+              "2026-09-25",
+              339.0
+            ],
+            [
+              "2026-09-26",
+              339.0
+            ]
+          ]
+        },
+        {
+          "name": "Single pack",
+          "model": "DCB609",
+          "sku": "B01MQTIEMD",
+          "retailer": "Amazon.ca",
+          "url": "https://www.amazon.ca/dp/B01MQTIEMD",
+          "price": 334,
+          "was": null,
+          "ah": 9,
+          "packs": 1,
+          "stock": "In stock — Impact Distribution at $334 with FREE delivery Oct 7–15",
+          "history": [
+            [
+              "2026-09-12",
+              334.0
+            ],
+            [
+              "2026-09-13",
+              334.0
+            ],
+            [
+              "2026-09-14",
+              334.0
+            ],
+            [
+              "2026-09-15",
+              334.0
+            ],
+            [
+              "2026-09-16",
+              334.0
+            ],
+            [
+              "2026-09-17",
+              334.0
+            ],
+            [
+              "2026-09-18",
+              334.0
+            ],
+            [
+              "2026-09-19",
+              334.0
+            ],
+            [
+              "2026-09-20",
+              334.0
+            ],
+            [
+              "2026-09-21",
+              334.0
+            ],
+            [
+              "2026-09-22",
+              328.5
+            ],
+            [
+              "2026-09-23",
+              334.0
+            ],
+            [
+              "2026-09-24",
+              334.0
+            ],
+            [
+              "2026-09-25",
+              334.0
+            ],
+            [
+              "2026-09-26",
+              334.0
+            ]
+          ]
+        },
+        {
+          "name": "Two-pack",
+          "model": "DCB609-2",
+          "sku": "1001032332",
+          "url": "https://www.homedepot.ca/product/dewalt-20v-60v-max-flexvolt-9-0ah-battery-2-pack-/1001032332",
+          "price": 428,
+          "was": 479,
+          "ah": 18,
+          "packs": 2,
+          "stock": "In stock at Windermere — aisle 16, bay 002; 4 on the shelf; 11% off",
+          "history": [
+            [
+              "2026-09-08",
+              428.0
+            ],
+            [
+              "2026-09-09",
+              428.0
+            ],
+            [
+              "2026-09-10",
+              428.0
+            ],
+            [
+              "2026-09-11",
+              428.0
+            ],
+            [
+              "2026-09-12",
+              428.0
+            ],
+            [
+              "2026-09-13",
+              428.0
+            ],
+            [
+              "2026-09-14",
+              428.0
+            ],
+            [
+              "2026-09-15",
+              428.0
+            ],
+            [
+              "2026-09-16",
+              428.0
+            ],
+            [
+              "2026-09-17",
+              428.0
+            ],
+            [
+              "2026-09-18",
+              428.0
+            ],
+            [
+              "2026-09-19",
+              428.0
+            ],
+            [
+              "2026-09-20",
+              428.0
+            ],
+            [
+              "2026-09-21",
+              428.0
+            ],
+            [
+              "2026-09-22",
+              428.0
+            ],
+            [
+              "2026-09-23",
+              428.0
+            ],
+            [
+              "2026-09-24",
+              428.0
+            ],
+            [
+              "2026-09-25",
+              428.0
+            ],
+            [
+              "2026-09-26",
+              428.0
+            ]
+          ]
+        },
+        {
+          "name": "Single pack + fast charger",
+          "model": "DCB609C",
+          "sku": "1001936613",
+          "url": "https://www.homedepot.ca/product/dewalt-20v-60v-max-flexvolt-9-0-ah-battery-and-charger-kit/1001936613",
+          "price": 348,
+          "was": 398,
+          "ah": 9,
+          "packs": 1,
+          "bundle": "charger",
+          "stock": "In stock at Windermere — aisle 16, bay 002; down to 2 on the shelf from 3; 13% off",
+          "history": [
+            [
+              "2026-09-09",
+              348.0
+            ],
+            [
+              "2026-09-10",
+              348.0
+            ],
+            [
+              "2026-09-11",
+              348.0
+            ],
+            [
+              "2026-09-12",
+              348.0
+            ],
+            [
+              "2026-09-13",
+              348.0
+            ],
+            [
+              "2026-09-14",
+              348.0
+            ],
+            [
+              "2026-09-15",
+              348.0
+            ],
+            [
+              "2026-09-16",
+              348.0
+            ],
+            [
+              "2026-09-17",
+              348.0
+            ],
+            [
+              "2026-09-18",
+              348.0
+            ],
+            [
+              "2026-09-19",
+              348.0
+            ],
+            [
+              "2026-09-20",
+              348.0
+            ],
+            [
+              "2026-09-21",
+              348.0
+            ],
+            [
+              "2026-09-22",
+              348.0
+            ],
+            [
+              "2026-09-23",
+              348.0
+            ],
+            [
+              "2026-09-24",
+              348.0
+            ],
+            [
+              "2026-09-25",
+              348.0
+            ],
+            [
+              "2026-09-26",
+              348.0
+            ]
+          ]
+        },
+        {
+          "name": "Single pack",
+          "model": "DCB612",
+          "sku": "1001308167",
+          "url": "https://www.homedepot.ca/product/dewalt-20v-60v-max-flexvolt-12-0ah-battery/1001308167",
+          "price": 419,
+          "was": null,
+          "ah": 12,
+          "packs": 1,
+          "stock": "Limited stock at Windermere with no count shown — delivery still unavailable",
+          "history": [
+            [
+              "2026-09-08",
+              419.0
+            ],
+            [
+              "2026-09-09",
+              419.0
+            ],
+            [
+              "2026-09-10",
+              419.0
+            ],
+            [
+              "2026-09-11",
+              419.0
+            ],
+            [
+              "2026-09-12",
+              419.0
+            ],
+            [
+              "2026-09-13",
+              419.0
+            ],
+            [
+              "2026-09-14",
+              419.0
+            ],
+            [
+              "2026-09-15",
+              419.0
+            ],
+            [
+              "2026-09-16",
+              419.0
+            ],
+            [
+              "2026-09-17",
+              419.0
+            ],
+            [
+              "2026-09-18",
+              419.0
+            ],
+            [
+              "2026-09-19",
+              419.0
+            ],
+            [
+              "2026-09-20",
+              419.0
+            ],
+            [
+              "2026-09-21",
+              419.0
+            ],
+            [
+              "2026-09-22",
+              419.0
+            ],
+            [
+              "2026-09-23",
+              419.0
+            ],
+            [
+              "2026-09-24",
+              419.0
+            ],
+            [
+              "2026-09-25",
+              419.0
+            ],
+            [
+              "2026-09-26",
+              419.0
+            ]
+          ]
+        },
+        {
+          "name": "Single pack — newer 12Ah SKU",
+          "model": "DCB6112",
+          "sku": "1001967060",
+          "url": "https://www.homedepot.ca/product/dewalt-flexvolt-20v-60v-max-12ah-battery/1001967060",
+          "price": 429,
+          "was": null,
+          "ah": 12,
+          "packs": 1,
+          "stock": "3 on the shelf at Windermere, aisle 16, bay 002 — delivery available",
+          "history": [
+            [
+              "2026-09-12",
+              429.0
+            ],
+            [
+              "2026-09-13",
+              429.0
+            ],
+            [
+              "2026-09-14",
+              429.0
+            ],
+            [
+              "2026-09-15",
+              429.0
+            ],
+            [
+              "2026-09-16",
+              429.0
+            ],
+            [
+              "2026-09-17",
+              429.0
+            ],
+            [
+              "2026-09-18",
+              429.0
+            ],
+            [
+              "2026-09-19",
+              429.0
+            ],
+            [
+              "2026-09-20",
+              429.0
+            ],
+            [
+              "2026-09-21",
+              429.0
+            ],
+            [
+              "2026-09-22",
+              429.0
+            ],
+            [
+              "2026-09-23",
+              429.0
+            ],
+            [
+              "2026-09-24",
+              429.0
+            ],
+            [
+              "2026-09-25",
+              429.0
+            ],
+            [
+              "2026-09-26",
+              429.0
+            ]
+          ]
+        },
+        {
+          "name": "Single pack — oil-resistant",
+          "model": "DCB609G",
+          "sku": "1001686735",
+          "url": "https://www.homedepot.ca/product/dewalt-20v-60v-max-flexvolt-9-0-ah-oil-resistant-battery/1001686735",
+          "price": 359,
+          "was": null,
+          "ah": 9,
+          "packs": 1,
+          "stock": "Not sold in-store — free delivery, arrives by Sept 28",
+          "history": [
+            [
+              "2026-09-14",
+              359.0
+            ],
+            [
+              "2026-09-15",
+              359.0
+            ],
+            [
+              "2026-09-16",
+              359.0
+            ],
+            [
+              "2026-09-17",
+              359.0
+            ],
+            [
+              "2026-09-18",
+              359.0
+            ],
+            [
+              "2026-09-19",
+              359.0
+            ],
+            [
+              "2026-09-20",
+              359.0
+            ],
+            [
+              "2026-09-21",
+              359.0
+            ],
+            [
+              "2026-09-22",
+              359.0
+            ],
+            [
+              "2026-09-23",
+              359.0
+            ],
+            [
+              "2026-09-24",
+              359.0
+            ],
+            [
+              "2026-09-25",
+              359.0
+            ],
+            [
+              "2026-09-26",
+              359.0
+            ]
+          ]
+        },
+        {
+          "name": "Single pack",
+          "model": "DCB612",
+          "sku": "DEW-DCB612",
+          "retailer": "KMS Tools",
+          "url": "https://www.kmstools.com/dewalt-flexvolt-20v-60v-max-12ah-battery-pack.html",
+          "price": 328,
+          "was": null,
+          "ah": 12,
+          "packs": 1,
+          "stock": "Super Special (MAP $328) — in stock online; Abbotsford still sold out",
+          "history": [
+            [
+              "2026-09-09",
+              328.0
+            ],
+            [
+              "2026-09-10",
+              328.0
+            ],
+            [
+              "2026-09-11",
+              328.0
+            ],
+            [
+              "2026-09-12",
+              328.0
+            ],
+            [
+              "2026-09-13",
+              328.0
+            ],
+            [
+              "2026-09-14",
+              328.0
+            ],
+            [
+              "2026-09-15",
+              328.0
+            ],
+            [
+              "2026-09-16",
+              328.0
+            ],
+            [
+              "2026-09-17",
+              328.0
+            ],
+            [
+              "2026-09-18",
+              328.0
+            ],
+            [
+              "2026-09-19",
+              328.0
+            ],
+            [
+              "2026-09-20",
+              328.0
+            ],
+            [
+              "2026-09-21",
+              328.0
+            ],
+            [
+              "2026-09-22",
+              328.0
+            ],
+            [
+              "2026-09-23",
+              328.0
+            ],
+            [
+              "2026-09-24",
+              328.0
+            ],
+            [
+              "2026-09-25",
+              328.0
+            ],
+            [
+              "2026-09-26",
+              328.0
+            ]
+          ]
+        },
+        {
+          "name": "Single pack",
+          "model": "DCB612",
+          "sku": "4XXTU7WXODC9",
+          "retailer": "Walmart.ca",
+          "url": "https://www.walmart.ca/en/ip/DEWALT-FLEXVOLT-20V-60V-MAX-Battery-12-0-Ah-DCB612/4XXTU7WXODC9",
+          "price": 328,
+          "was": null,
+          "ah": 12,
+          "packs": 1,
+          "stock": "Sold and shipped by Preston Hardware; free seller delivery slipped again, to Mon Oct 5",
+          "history": [
+            [
+              "2026-09-09",
+              328.0
+            ],
+            [
+              "2026-09-10",
+              328.0
+            ],
+            [
+              "2026-09-11",
+              328.0
+            ],
+            [
+              "2026-09-12",
+              328.0
+            ],
+            [
+              "2026-09-13",
+              328.0
+            ],
+            [
+              "2026-09-14",
+              328.0
+            ],
+            [
+              "2026-09-16",
+              328.0
+            ],
+            [
+              "2026-09-17",
+              328.0
+            ],
+            [
+              "2026-09-18",
+              328.0
+            ],
+            [
+              "2026-09-19",
+              328.0
+            ],
+            [
+              "2026-09-20",
+              328.0
+            ],
+            [
+              "2026-09-21",
+              328.0
+            ],
+            [
+              "2026-09-22",
+              328.0
+            ],
+            [
+              "2026-09-23",
+              328.0
+            ],
+            [
+              "2026-09-24",
+              328.0
+            ],
+            [
+              "2026-09-25",
+              328.0
+            ],
+            [
+              "2026-09-26",
+              328.0
+            ]
+          ]
+        },
+        {
+          "name": "Single pack",
+          "model": "DCB615",
+          "sku": "1001686738",
+          "url": "https://www.homedepot.ca/product/dewalt-20v-60v-max-flexvolt-15-0-ah-battery/1001686738",
+          "price": 559,
+          "was": null,
+          "ah": 15,
+          "packs": 1,
+          "stock": "Not on the shelf at Windermere — free delivery, arrives by Sept 28",
+          "history": [
+            [
+              "2026-09-08",
+              559.0
+            ],
+            [
+              "2026-09-09",
+              559.0
+            ],
+            [
+              "2026-09-10",
+              559.0
+            ],
+            [
+              "2026-09-11",
+              559.0
+            ],
+            [
+              "2026-09-12",
+              559.0
+            ],
+            [
+              "2026-09-13",
+              559.0
+            ],
+            [
+              "2026-09-14",
+              559.0
+            ],
+            [
+              "2026-09-15",
+              559.0
+            ],
+            [
+              "2026-09-16",
+              559.0
+            ],
+            [
+              "2026-09-17",
+              559.0
+            ],
+            [
+              "2026-09-18",
+              559.0
+            ],
+            [
+              "2026-09-19",
+              559.0
+            ],
+            [
+              "2026-09-20",
+              559.0
+            ],
+            [
+              "2026-09-21",
+              559.0
+            ],
+            [
+              "2026-09-22",
+              559.0
+            ],
+            [
+              "2026-09-23",
+              559.0
+            ],
+            [
+              "2026-09-24",
+              559.0
+            ],
+            [
+              "2026-09-25",
+              559.0
+            ],
+            [
+              "2026-09-26",
+              559.0
+            ]
+          ]
+        },
+        {
+          "name": "Single pack",
+          "model": "DCB606",
+          "sku": "ADSS-DCB606",
+          "retailer": "Alberta Drywall",
+          "url": "https://www.albertadrywall.com/products/dewalt-dcb606-flexvolt%C2%AE-20v60v-max-6ah-battery",
+          "price": 175,
+          "was": null,
+          "ah": 6,
+          "packs": 1,
+          "stock": "In stock — 5 at 6030 50 St NW, Edmonton; pickup usually ready in 24 hours, shipping available",
+          "history": [
+            [
+              "2026-09-17",
+              175.0
+            ],
+            [
+              "2026-09-18",
+              175.0
+            ],
+            [
+              "2026-09-19",
+              175.0
+            ],
+            [
+              "2026-09-20",
+              175.0
+            ],
+            [
+              "2026-09-21",
+              175.0
+            ],
+            [
+              "2026-09-22",
+              175.0
+            ],
+            [
+              "2026-09-23",
+              175.0
+            ],
+            [
+              "2026-09-24",
+              175.0
+            ],
+            [
+              "2026-09-25",
+              175.0
+            ],
+            [
+              "2026-09-26",
+              175.0
+            ]
+          ]
+        },
+        {
+          "name": "Single pack",
+          "model": "DCB606",
+          "sku": "BLDDCB606",
+          "retailer": "Grainger Canada",
+          "url": "https://www.grainger.ca/en/product/BATTERY-PACK-6-0-AH/p/BLDDCB606",
+          "price": 205.99,
+          "was": 350.94,
+          "ah": 6,
+          "packs": 1,
+          "stock": "Sale price, offer ends 30 Oct 2026 — availability needs a postal code; flagged as special shipping",
+          "history": [
+            [
+              "2026-09-17",
+              205.99
+            ],
+            [
+              "2026-09-18",
+              205.99
+            ],
+            [
+              "2026-09-19",
+              205.99
+            ],
+            [
+              "2026-09-20",
+              205.99
+            ],
+            [
+              "2026-09-21",
+              205.99
+            ],
+            [
+              "2026-09-22",
+              205.99
+            ],
+            [
+              "2026-09-23",
+              205.99
+            ],
+            [
+              "2026-09-24",
+              205.99
+            ],
+            [
+              "2026-09-25",
+              205.99
+            ],
+            [
+              "2026-09-26",
+              205.99
+            ]
+          ]
+        },
+        {
+          "name": "Single pack",
+          "model": "DCB612",
+          "sku": "BLDDCB612",
+          "retailer": "Grainger Canada",
+          "url": "https://www.grainger.ca/en/product/BATTERY-20V-60V-MAX-FLEXVOLT-12AH/p/BLDDCB612",
+          "price": 345.99,
+          "was": 518.71,
+          "ah": 12,
+          "packs": 1,
+          "stock": "Sale price, offer ends 30 Oct 2026 — availability needs a postal code; flagged as special shipping",
+          "history": [
+            [
+              "2026-09-17",
+              345.99
+            ],
+            [
+              "2026-09-18",
+              345.99
+            ],
+            [
+              "2026-09-19",
+              345.99
+            ],
+            [
+              "2026-09-20",
+              345.99
+            ],
+            [
+              "2026-09-21",
+              345.99
+            ],
+            [
+              "2026-09-22",
+              345.99
+            ],
+            [
+              "2026-09-23",
+              345.99
+            ],
+            [
+              "2026-09-24",
+              345.99
+            ],
+            [
+              "2026-09-25",
+              345.99
+            ],
+            [
+              "2026-09-26",
+              345.99
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sixtyv",
+      "retailer": "Home Depot",
+      "name": "60V Brushless — Bare Tools &amp; Attachments",
+      "rule": "Flag ≥ 15% off, or any bare-tool clearance",
+      "unit": null,
+      "items": [
+        {
+          "name": "FlexVolt 7¼\" circular saw with brake — bare tool",
+          "model": "DCS578B",
+          "sku": "B086MF32GR",
+          "retailer": "Amazon.ca",
+          "url": "https://www.amazon.ca/dp/B086MF32GR",
+          "price": 329,
+          "was": null,
+          "stock": "Up from $299 — buy box passed to Impact Distribution at $329 with FREE delivery Oct 7–15, and it reads plain in stock rather than 1 left",
+          "history": [
+            [
+              "2026-09-10",
+              278.0
+            ],
+            [
+              "2026-09-11",
+              278.0
+            ],
+            [
+              "2026-09-12",
+              269.0
+            ],
+            [
+              "2026-09-13",
+              269.0
+            ],
+            [
+              "2026-09-14",
+              269.0
+            ],
+            [
+              "2026-09-15",
+              269.0
+            ],
+            [
+              "2026-09-16",
+              269.0
+            ],
+            [
+              "2026-09-17",
+              269.0
+            ],
+            [
+              "2026-09-18",
+              269.0
+            ],
+            [
+              "2026-09-19",
+              269.0
+            ],
+            [
+              "2026-09-20",
+              269.0
+            ],
+            [
+              "2026-09-21",
+              269.0
+            ],
+            [
+              "2026-09-22",
+              299.0
+            ],
+            [
+              "2026-09-23",
+              299.0
+            ],
+            [
+              "2026-09-24",
+              299.0
+            ],
+            [
+              "2026-09-25",
+              299.0
+            ],
+            [
+              "2026-09-26",
+              329.0
+            ]
+          ]
+        },
+        {
+          "name": "FlexVolt 7¼\" circular saw with brake — bare tool",
+          "model": "DCS578B",
+          "sku": "1001657253",
+          "url": "https://www.homedepot.ca/product/dewalt-flexvolt-60v-max-lithium-ion-brushless-7-1-4-inch-cordless-circular-saw-with-brake-tool-only-/1001657253",
+          "price": 369,
+          "was": null,
+          "stock": "In stock at Windermere — aisle 16, bay 004; 1 on the shelf",
+          "history": [
+            [
+              "2026-09-13",
+              369.0
+            ],
+            [
+              "2026-09-14",
+              369.0
+            ],
+            [
+              "2026-09-15",
+              369.0
+            ],
+            [
+              "2026-09-16",
+              369.0
+            ],
+            [
+              "2026-09-17",
+              369.0
+            ],
+            [
+              "2026-09-18",
+              369.0
+            ],
+            [
+              "2026-09-19",
+              369.0
+            ],
+            [
+              "2026-09-20",
+              369.0
+            ],
+            [
+              "2026-09-21",
+              369.0
+            ],
+            [
+              "2026-09-22",
+              369.0
+            ],
+            [
+              "2026-09-23",
+              369.0
+            ],
+            [
+              "2026-09-24",
+              369.0
+            ],
+            [
+              "2026-09-25",
+              369.0
+            ],
+            [
+              "2026-09-26",
+              369.0
+            ]
+          ]
+        },
+        {
+          "name": "FlexVolt 7¼\" circular saw with brake — bare tool",
+          "model": "DCS578B",
+          "sku": "DEW-DCS578B",
+          "retailer": "KMS Tools",
+          "url": "https://www.kmstools.com/dewalt-flexvolt-60v-max-brushless-7-1-4-circular-saw-with-brake-tool-only.html",
+          "price": 398,
+          "was": null,
+          "stock": "Super Special (MAP $398) — in stock online; Abbotsford holds at 9",
+          "history": [
+            [
+              "2026-09-09",
+              398.0
+            ],
+            [
+              "2026-09-10",
+              398.0
+            ],
+            [
+              "2026-09-11",
+              398.0
+            ],
+            [
+              "2026-09-12",
+              398.0
+            ],
+            [
+              "2026-09-13",
+              398.0
+            ],
+            [
+              "2026-09-14",
+              398.0
+            ],
+            [
+              "2026-09-15",
+              398.0
+            ],
+            [
+              "2026-09-16",
+              398.0
+            ],
+            [
+              "2026-09-17",
+              398.0
+            ],
+            [
+              "2026-09-18",
+              398.0
+            ],
+            [
+              "2026-09-19",
+              398.0
+            ],
+            [
+              "2026-09-20",
+              398.0
+            ],
+            [
+              "2026-09-21",
+              398.0
+            ],
+            [
+              "2026-09-22",
+              398.0
+            ],
+            [
+              "2026-09-23",
+              398.0
+            ],
+            [
+              "2026-09-24",
+              398.0
+            ],
+            [
+              "2026-09-25",
+              398.0
+            ],
+            [
+              "2026-09-26",
+              398.0
+            ]
+          ]
+        },
+        {
+          "name": "Reciprocating saw — bare tool",
+          "model": "DCS389B",
+          "sku": "1001657251",
+          "url": "https://www.homedepot.ca/product/dewalt-flexvolt-60v-max-lithium-ion-brushless-cordless-reciprocating-saw-tool-only-/1001657251",
+          "price": 369,
+          "was": null,
+          "stock": "In stock at Windermere — aisle 16, bay 004; 2 on the shelf",
+          "history": [
+            [
+              "2026-09-13",
+              369.0
+            ],
+            [
+              "2026-09-14",
+              369.0
+            ],
+            [
+              "2026-09-15",
+              369.0
+            ],
+            [
+              "2026-09-16",
+              369.0
+            ],
+            [
+              "2026-09-17",
+              369.0
+            ],
+            [
+              "2026-09-18",
+              369.0
+            ],
+            [
+              "2026-09-19",
+              369.0
+            ],
+            [
+              "2026-09-20",
+              369.0
+            ],
+            [
+              "2026-09-21",
+              369.0
+            ],
+            [
+              "2026-09-22",
+              369.0
+            ],
+            [
+              "2026-09-23",
+              369.0
+            ],
+            [
+              "2026-09-24",
+              369.0
+            ],
+            [
+              "2026-09-25",
+              369.0
+            ],
+            [
+              "2026-09-26",
+              369.0
+            ]
+          ]
+        },
+        {
+          "name": "4½\"–6\" grinder with kickback brake — bare tool",
+          "model": "DCG418B",
+          "sku": "1001657249",
+          "url": "https://www.homedepot.ca/product/dewalt-flexvolt-60v-lithium-ion-brushless-4-1-2-6-cordless-grinder-with-kickback-brake-tool-only-/1001657249",
+          "price": 329,
+          "was": null,
+          "stock": "In stock at Windermere — aisle 16, bay 004; 3 on the shelf",
+          "history": [
+            [
+              "2026-09-13",
+              329.0
+            ],
+            [
+              "2026-09-14",
+              329.0
+            ],
+            [
+              "2026-09-15",
+              329.0
+            ],
+            [
+              "2026-09-16",
+              329.0
+            ],
+            [
+              "2026-09-17",
+              329.0
+            ],
+            [
+              "2026-09-18",
+              329.0
+            ],
+            [
+              "2026-09-19",
+              329.0
+            ],
+            [
+              "2026-09-20",
+              329.0
+            ],
+            [
+              "2026-09-21",
+              329.0
+            ],
+            [
+              "2026-09-22",
+              329.0
+            ],
+            [
+              "2026-09-23",
+              329.0
+            ],
+            [
+              "2026-09-24",
+              329.0
+            ],
+            [
+              "2026-09-25",
+              329.0
+            ],
+            [
+              "2026-09-26",
+              329.0
+            ]
+          ]
+        },
+        {
+          "name": "6½\" tracksaw — bare tool",
+          "model": "DCS520B",
+          "sku": "1001065792",
+          "url": "https://www.homedepot.ca/product/dewalt-60v-max-flexvolt-lithium-ion-cordless-brushless-6-1-2-inch-tracksaw-tool-only-/1001065792",
+          "price": 589,
+          "was": null,
+          "stock": "In stock at Windermere — aisle 16, bay 006; 1 on the shelf",
+          "history": [
+            [
+              "2026-09-15",
+              589.0
+            ],
+            [
+              "2026-09-16",
+              589.0
+            ],
+            [
+              "2026-09-17",
+              589.0
+            ],
+            [
+              "2026-09-18",
+              589.0
+            ],
+            [
+              "2026-09-19",
+              589.0
+            ],
+            [
+              "2026-09-20",
+              589.0
+            ],
+            [
+              "2026-09-21",
+              589.0
+            ],
+            [
+              "2026-09-22",
+              589.0
+            ],
+            [
+              "2026-09-23",
+              589.0
+            ],
+            [
+              "2026-09-24",
+              589.0
+            ],
+            [
+              "2026-09-25",
+              589.0
+            ],
+            [
+              "2026-09-26",
+              589.0
+            ]
+          ]
+        },
+        {
+          "name": "780 CFM premium axial blower — bare tool",
+          "model": "DCBL777B",
+          "sku": "1001824471",
+          "url": "https://www.homedepot.ca/product/dewalt-60v-max-flexvolt-780-cfm-premium-axial-blower-tool-only-/1001824471",
+          "price": 349,
+          "was": null,
+          "stock": "In stock at Windermere — aisle 1, bay 014; holding at 7 on the shelf",
+          "history": [
+            [
+              "2026-09-14",
+              349.0
+            ],
+            [
+              "2026-09-15",
+              349.0
+            ],
+            [
+              "2026-09-16",
+              349.0
+            ],
+            [
+              "2026-09-17",
+              349.0
+            ],
+            [
+              "2026-09-18",
+              349.0
+            ],
+            [
+              "2026-09-19",
+              349.0
+            ],
+            [
+              "2026-09-20",
+              349.0
+            ],
+            [
+              "2026-09-21",
+              349.0
+            ],
+            [
+              "2026-09-22",
+              349.0
+            ],
+            [
+              "2026-09-23",
+              349.0
+            ],
+            [
+              "2026-09-24",
+              349.0
+            ],
+            [
+              "2026-09-25",
+              349.0
+            ],
+            [
+              "2026-09-26",
+              349.0
+            ]
+          ]
+        },
+        {
+          "name": "17\" attachment-capable string trimmer — bare tool",
+          "model": "DCST972B",
+          "sku": "1001651196",
+          "url": "https://www.homedepot.ca/product/dewalt-flexvolt-60v-max-lithium-ion-brushless-cordless-17-in-attachment-capable-string-trimmer-tool-only-/1001651196",
+          "price": 299,
+          "was": null,
+          "stock": "Not sold in-store — free delivery, arrives by Sept 28",
+          "history": [
+            [
+              "2026-09-10",
+              299.0
+            ],
+            [
+              "2026-09-11",
+              299.0
+            ],
+            [
+              "2026-09-12",
+              299.0
+            ],
+            [
+              "2026-09-13",
+              299.0
+            ],
+            [
+              "2026-09-14",
+              299.0
+            ],
+            [
+              "2026-09-15",
+              299.0
+            ],
+            [
+              "2026-09-16",
+              299.0
+            ],
+            [
+              "2026-09-17",
+              299.0
+            ],
+            [
+              "2026-09-18",
+              299.0
+            ],
+            [
+              "2026-09-19",
+              299.0
+            ],
+            [
+              "2026-09-20",
+              299.0
+            ],
+            [
+              "2026-09-21",
+              299.0
+            ],
+            [
+              "2026-09-22",
+              299.0
+            ],
+            [
+              "2026-09-23",
+              299.0
+            ],
+            [
+              "2026-09-24",
+              299.0
+            ],
+            [
+              "2026-09-25",
+              299.0
+            ],
+            [
+              "2026-09-26",
+              299.0
+            ]
+          ]
+        },
+        {
+          "name": "7½\" attachment-capable edger — bare tool",
+          "model": "DCED472B",
+          "sku": "1001651194",
+          "url": "https://www.homedepot.ca/product/dewalt-flexvolt-60v-max-lithium-ion-cordless-brushless-7-1-2-in-attachment-capable-edger-tool-only-/1001651194",
+          "price": 299,
+          "was": null,
+          "stock": "Not sold in-store — free delivery, arrives by Sept 28",
+          "history": [
+            [
+              "2026-09-15",
+              299.0
+            ],
+            [
+              "2026-09-16",
+              299.0
+            ],
+            [
+              "2026-09-17",
+              299.0
+            ],
+            [
+              "2026-09-18",
+              299.0
+            ],
+            [
+              "2026-09-19",
+              299.0
+            ],
+            [
+              "2026-09-20",
+              299.0
+            ],
+            [
+              "2026-09-21",
+              299.0
+            ],
+            [
+              "2026-09-22",
+              299.0
+            ],
+            [
+              "2026-09-23",
+              299.0
+            ],
+            [
+              "2026-09-24",
+              299.0
+            ],
+            [
+              "2026-09-25",
+              299.0
+            ],
+            [
+              "2026-09-26",
+              299.0
+            ]
+          ]
+        },
+        {
+          "name": "12\" sliding compound miter saw — bare tool",
+          "model": "DCS781B",
+          "sku": "1001769821",
+          "url": "https://www.homedepot.ca/product/dewalt-flexvolt-60v-max-12-inch-sliding-miter-saw-tool-only-/1001769821",
+          "price": 969,
+          "was": null,
+          "stock": "In stock at Windermere — aisle 16, bay 007; 4 on the shelf",
+          "history": [
+            [
+              "2026-09-12",
+              969.0
+            ],
+            [
+              "2026-09-13",
+              969.0
+            ],
+            [
+              "2026-09-14",
+              969.0
+            ],
+            [
+              "2026-09-15",
+              969.0
+            ],
+            [
+              "2026-09-16",
+              969.0
+            ],
+            [
+              "2026-09-17",
+              969.0
+            ],
+            [
+              "2026-09-18",
+              969.0
+            ],
+            [
+              "2026-09-19",
+              969.0
+            ],
+            [
+              "2026-09-20",
+              969.0
+            ],
+            [
+              "2026-09-21",
+              969.0
+            ],
+            [
+              "2026-09-22",
+              969.0
+            ],
+            [
+              "2026-09-23",
+              969.0
+            ],
+            [
+              "2026-09-24",
+              969.0
+            ],
+            [
+              "2026-09-25",
+              969.0
+            ],
+            [
+              "2026-09-26",
+              969.0
+            ]
+          ]
+        },
+        {
+          "name": "12\" sliding compound miter saw kit (9Ah + charger)",
+          "model": "DCS781X1",
+          "sku": "1001805204",
+          "url": "https://www.homedepot.ca/product/dewalt-60v-max-flexvolt-12-inch-sliding-miter-saw-kit-with-9-ah-battery-charger/1001805204",
+          "price": 999,
+          "was": 1249,
+          "stock": "Not sold in-store — free delivery only; 20% off",
+          "history": [
+            [
+              "2026-09-11",
+              999.0
+            ],
+            [
+              "2026-09-12",
+              999.0
+            ],
+            [
+              "2026-09-13",
+              999.0
+            ],
+            [
+              "2026-09-14",
+              999.0
+            ],
+            [
+              "2026-09-15",
+              999.0
+            ],
+            [
+              "2026-09-16",
+              999.0
+            ],
+            [
+              "2026-09-17",
+              999.0
+            ],
+            [
+              "2026-09-18",
+              999.0
+            ],
+            [
+              "2026-09-19",
+              999.0
+            ],
+            [
+              "2026-09-20",
+              999.0
+            ],
+            [
+              "2026-09-21",
+              999.0
+            ],
+            [
+              "2026-09-22",
+              999.0
+            ],
+            [
+              "2026-09-23",
+              999.0
+            ],
+            [
+              "2026-09-24",
+              999.0
+            ],
+            [
+              "2026-09-25",
+              999.0
+            ],
+            [
+              "2026-09-26",
+              999.0
+            ]
+          ]
+        },
+        {
+          "name": "17\" attachment-capable string trimmer kit (9Ah + charger)",
+          "model": "DCST972X1",
+          "sku": "1001587655",
+          "url": "https://www.homedepot.ca/product/dewalt-60v-max-flexvolt-lithium-ion-cordless-brushless-17-inch-folding-attachment-capable-string-trimmer-kit-with-9ah-battery-and-charger/1001587655",
+          "price": 428,
+          "was": 489,
+          "stock": "In stock at Windermere — aisle 1, bay 014; 3 on the shelf; 12% off",
+          "history": [
+            [
+              "2026-09-08",
+              428.0
+            ],
+            [
+              "2026-09-09",
+              428.0
+            ],
+            [
+              "2026-09-10",
+              428.0
+            ],
+            [
+              "2026-09-11",
+              428.0
+            ],
+            [
+              "2026-09-12",
+              428.0
+            ],
+            [
+              "2026-09-13",
+              428.0
+            ],
+            [
+              "2026-09-14",
+              428.0
+            ],
+            [
+              "2026-09-15",
+              428.0
+            ],
+            [
+              "2026-09-16",
+              428.0
+            ],
+            [
+              "2026-09-17",
+              428.0
+            ],
+            [
+              "2026-09-18",
+              428.0
+            ],
+            [
+              "2026-09-19",
+              428.0
+            ],
+            [
+              "2026-09-20",
+              428.0
+            ],
+            [
+              "2026-09-21",
+              428.0
+            ],
+            [
+              "2026-09-22",
+              428.0
+            ],
+            [
+              "2026-09-23",
+              428.0
+            ],
+            [
+              "2026-09-24",
+              428.0
+            ],
+            [
+              "2026-09-25",
+              428.0
+            ],
+            [
+              "2026-09-26",
+              428.0
+            ]
+          ]
+        },
+        {
+          "name": "Pole saw attachment",
+          "model": "DWOAS8PS",
+          "sku": "1001592778",
+          "url": "https://www.homedepot.ca/product/dewalt-flexvolt-pole-saw-string-trimmer-attachment/1001592778",
+          "price": 179,
+          "was": null,
+          "stock": "Not sold in-store — free delivery; the page carries model DWOAS6PS, not DWOAS8PS",
+          "history": [
+            [
+              "2026-09-08",
+              179.0
+            ],
+            [
+              "2026-09-09",
+              179.0
+            ],
+            [
+              "2026-09-10",
+              179.0
+            ],
+            [
+              "2026-09-11",
+              179.0
+            ],
+            [
+              "2026-09-12",
+              179.0
+            ],
+            [
+              "2026-09-13",
+              179.0
+            ],
+            [
+              "2026-09-14",
+              179.0
+            ],
+            [
+              "2026-09-15",
+              179.0
+            ],
+            [
+              "2026-09-16",
+              179.0
+            ],
+            [
+              "2026-09-17",
+              179.0
+            ],
+            [
+              "2026-09-18",
+              179.0
+            ],
+            [
+              "2026-09-19",
+              179.0
+            ],
+            [
+              "2026-09-20",
+              179.0
+            ],
+            [
+              "2026-09-21",
+              179.0
+            ],
+            [
+              "2026-09-22",
+              179.0
+            ],
+            [
+              "2026-09-23",
+              179.0
+            ],
+            [
+              "2026-09-24",
+              179.0
+            ],
+            [
+              "2026-09-25",
+              179.0
+            ],
+            [
+              "2026-09-26",
+              179.0
+            ]
+          ]
+        },
+        {
+          "name": "7½\" attachment-capable edger kit",
+          "model": "DCED472",
+          "sku": "1001651193",
+          "url": "https://www.homedepot.ca/product/dewalt-flexvolt-60v-max-lithium-ion-cordless-brushless-7-1-2-in-attachment-capable-edger-kit/1001651193",
+          "price": 449,
+          "was": null,
+          "stock": "Not sold in-store — free delivery; the page carries model DCED472X1",
+          "history": [
+            [
+              "2026-09-09",
+              449.0
+            ],
+            [
+              "2026-09-10",
+              449.0
+            ],
+            [
+              "2026-09-11",
+              449.0
+            ],
+            [
+              "2026-09-12",
+              449.0
+            ],
+            [
+              "2026-09-13",
+              449.0
+            ],
+            [
+              "2026-09-14",
+              449.0
+            ],
+            [
+              "2026-09-15",
+              449.0
+            ],
+            [
+              "2026-09-16",
+              449.0
+            ],
+            [
+              "2026-09-17",
+              449.0
+            ],
+            [
+              "2026-09-18",
+              449.0
+            ],
+            [
+              "2026-09-19",
+              449.0
+            ],
+            [
+              "2026-09-20",
+              449.0
+            ],
+            [
+              "2026-09-21",
+              449.0
+            ],
+            [
+              "2026-09-22",
+              449.0
+            ],
+            [
+              "2026-09-23",
+              449.0
+            ],
+            [
+              "2026-09-24",
+              449.0
+            ],
+            [
+              "2026-09-25",
+              449.0
+            ],
+            [
+              "2026-09-26",
+              449.0
+            ]
+          ]
+        },
+        {
+          "name": "FlexVolt handheld axial blower kit (battery + charger)",
+          "model": "DCBL772X1",
+          "sku": "DEW-DCBL772X1",
+          "retailer": "KMS Tools",
+          "url": "https://www.kmstools.com/dewalt-60v-max-flexvolt-brushless-handheld-axial-blower-kit-with-battery-and-charger.html",
+          "price": 418,
+          "was": null,
+          "stock": "Clearance — in stock online, 2 at Abbotsford; Home Depot lists the same kit at $419",
+          "history": [
+            [
+              "2026-09-09",
+              418.0
+            ],
+            [
+              "2026-09-10",
+              418.0
+            ],
+            [
+              "2026-09-11",
+              418.0
+            ],
+            [
+              "2026-09-12",
+              418.0
+            ],
+            [
+              "2026-09-13",
+              418.0
+            ],
+            [
+              "2026-09-14",
+              418.0
+            ],
+            [
+              "2026-09-15",
+              418.0
+            ],
+            [
+              "2026-09-16",
+              418.0
+            ],
+            [
+              "2026-09-17",
+              418.0
+            ],
+            [
+              "2026-09-18",
+              418.0
+            ],
+            [
+              "2026-09-19",
+              418.0
+            ],
+            [
+              "2026-09-20",
+              418.0
+            ],
+            [
+              "2026-09-21",
+              418.0
+            ],
+            [
+              "2026-09-22",
+              418.0
+            ],
+            [
+              "2026-09-23",
+              418.0
+            ],
+            [
+              "2026-09-24",
+              418.0
+            ],
+            [
+              "2026-09-25",
+              418.0
+            ],
+            [
+              "2026-09-26",
+              418.0
+            ]
+          ]
+        },
+        {
+          "name": "760 CFM premium axial blower kit (12Ah + charger)",
+          "model": "DCBL777Y1",
+          "sku": "1001857144",
+          "url": "https://www.homedepot.ca/product/dewalt-60v-max-flexvolt-760-cfm-premium-axial-blower-kit-with-1-12-0ah-flexvolt-battery-and-charger/1001857144",
+          "price": 499,
+          "was": null,
+          "stock": "Not sold in-store — free delivery available",
+          "history": [
+            [
+              "2026-09-17",
+              499.0
+            ],
+            [
+              "2026-09-18",
+              499.0
+            ],
+            [
+              "2026-09-19",
+              499.0
+            ],
+            [
+              "2026-09-20",
+              499.0
+            ],
+            [
+              "2026-09-21",
+              499.0
+            ],
+            [
+              "2026-09-22",
+              499.0
+            ],
+            [
+              "2026-09-23",
+              499.0
+            ],
+            [
+              "2026-09-24",
+              499.0
+            ],
+            [
+              "2026-09-25",
+              499.0
+            ],
+            [
+              "2026-09-26",
+              499.0
+            ]
+          ]
+        },
+        {
+          "name": "16\" chainsaw kit (9Ah + charger)",
+          "model": "DCCS670X1",
+          "sku": "1001047312",
+          "url": "https://www.homedepot.ca/product/dewalt-60v-max-flexvolt-lithium-ion-cordless-brushless-16-inch-chainsaw-kit-with-9ah-battery-and-charger/1001047312",
+          "price": 498,
+          "was": 579,
+          "stock": "Limited stock at Windermere and the search tile reads not available for delivery; 14% off",
+          "history": [
+            [
+              "2026-09-17",
+              498.0
+            ],
+            [
+              "2026-09-18",
+              498.0
+            ],
+            [
+              "2026-09-19",
+              498.0
+            ],
+            [
+              "2026-09-20",
+              498.0
+            ],
+            [
+              "2026-09-21",
+              498.0
+            ],
+            [
+              "2026-09-22",
+              498.0
+            ],
+            [
+              "2026-09-23",
+              498.0
+            ],
+            [
+              "2026-09-24",
+              498.0
+            ],
+            [
+              "2026-09-25",
+              498.0
+            ],
+            [
+              "2026-09-26",
+              498.0
+            ]
+          ]
+        },
+        {
+          "name": "FlexVolt 60V reciprocating saw — bare tool",
+          "model": "DCS388",
+          "sku": "ADSS-DCS388",
+          "retailer": "Alberta Drywall",
+          "url": "https://www.albertadrywall.com/products/dewalt-flexvolt-60v-max-cordless-reciprocating-saw-1",
+          "price": 309.99,
+          "was": null,
+          "stock": "In stock — 3 at 6030 50 St NW, Edmonton; pickup usually ready in 24 hours",
+          "history": [
+            [
+              "2026-09-18",
+              309.99
+            ],
+            [
+              "2026-09-19",
+              309.99
+            ],
+            [
+              "2026-09-20",
+              309.99
+            ],
+            [
+              "2026-09-21",
+              309.99
+            ],
+            [
+              "2026-09-22",
+              309.99
+            ],
+            [
+              "2026-09-23",
+              309.99
+            ],
+            [
+              "2026-09-24",
+              309.99
+            ],
+            [
+              "2026-09-25",
+              309.99
+            ],
+            [
+              "2026-09-26",
+              309.99
+            ]
+          ]
+        },
+        {
+          "name": "FlexVolt 60V dust extractor — refurbished bare tool",
+          "model": "DCV585BR",
+          "sku": "ADSS-DCV585BR",
+          "retailer": "Alberta Drywall",
+          "url": "https://www.albertadrywall.com/products/dewalt-flexvolt-60-max-cordless-dust-extractor-tool-only-refurbished",
+          "price": 395,
+          "was": null,
+          "stock": "Refurbished by DeWalt — 5 in stock at 6030 50 St NW, Edmonton; the refurbished DCV585T2R kit is $735 at the same store",
+          "history": [
+            [
+              "2026-09-18",
+              395.0
+            ],
+            [
+              "2026-09-19",
+              395.0
+            ],
+            [
+              "2026-09-20",
+              395.0
+            ],
+            [
+              "2026-09-21",
+              395.0
+            ],
+            [
+              "2026-09-22",
+              395.0
+            ],
+            [
+              "2026-09-23",
+              395.0
+            ],
+            [
+              "2026-09-24",
+              395.0
+            ],
+            [
+              "2026-09-25",
+              395.0
+            ],
+            [
+              "2026-09-26",
+              395.0
+            ]
+          ]
+        },
+        {
+          "name": "FlexVolt 60V mixer/drill with E-Clutch — refurbished bare tool",
+          "model": "DCD130B",
+          "sku": "ADSS-DCD130B",
+          "retailer": "Alberta Drywall",
+          "url": "https://www.albertadrywall.com/products/dewalt-dcd130-60v-max-cordless-mixer-drill-reburbished",
+          "price": 279,
+          "was": null,
+          "stock": "Refurbished by DeWalt — still only 1 in stock at 6030 50 St NW, Edmonton; the new DCD130 is $363.60 there",
+          "history": [
+            [
+              "2026-09-19",
+              279.0
+            ],
+            [
+              "2026-09-20",
+              279.0
+            ],
+            [
+              "2026-09-21",
+              279.0
+            ],
+            [
+              "2026-09-22",
+              279.0
+            ],
+            [
+              "2026-09-23",
+              279.0
+            ],
+            [
+              "2026-09-24",
+              279.0
+            ],
+            [
+              "2026-09-25",
+              279.0
+            ],
+            [
+              "2026-09-26",
+              279.0
+            ]
+          ]
+        },
+        {
+          "name": "FlexVolt 60V handheld axial blower — bare-tool option",
+          "model": "DCBL770X1",
+          "sku": "ADSS-DCBL770X1",
+          "retailer": "Alberta Drywall",
+          "url": "https://www.albertadrywall.com/products/dewalt-dcbl770x1",
+          "price": 297,
+          "was": null,
+          "stock": "Bare-tool option of a $499 kit — 3 in stock at 6030 50 St NW, Edmonton; Home Depot's DCBL770B bare tool is $58 cheaper",
+          "history": [
+            [
+              "2026-09-19",
+              297.0
+            ],
+            [
+              "2026-09-20",
+              297.0
+            ],
+            [
+              "2026-09-21",
+              297.0
+            ],
+            [
+              "2026-09-22",
+              297.0
+            ],
+            [
+              "2026-09-23",
+              297.0
+            ],
+            [
+              "2026-09-24",
+              297.0
+            ],
+            [
+              "2026-09-25",
+              297.0
+            ],
+            [
+              "2026-09-26",
+              297.0
+            ]
+          ]
+        },
+        {
+          "name": "FlexVolt 60V 15\" string trimmer — bare-tool option",
+          "model": "DCST970X1",
+          "sku": "ADSS-DCST970X1",
+          "retailer": "Alberta Drywall",
+          "url": "https://www.albertadrywall.com/products/dewalt-flexvolt-60v-max-cordless-string-trimmer",
+          "price": 279,
+          "was": null,
+          "stock": "Bare-tool option of a $399 kit — 4 in stock at 6030 50 St NW, Edmonton; Home Depot's DCST970B bare tool is $10 cheaper",
+          "history": [
+            [
+              "2026-09-20",
+              279.0
+            ],
+            [
+              "2026-09-21",
+              279.0
+            ],
+            [
+              "2026-09-22",
+              279.0
+            ],
+            [
+              "2026-09-23",
+              279.0
+            ],
+            [
+              "2026-09-24",
+              279.0
+            ],
+            [
+              "2026-09-25",
+              279.0
+            ],
+            [
+              "2026-09-26",
+              279.0
+            ]
+          ]
+        },
+        {
+          "name": "21\" single-stage snow blower kit (2 × 4Ah + 2 chargers) — refurbished",
+          "model": "DCSNP2142Y2R-CAR",
+          "sku": "ADSS-DCSNP2142Y2R",
+          "retailer": "Alberta Drywall",
+          "url": "https://www.albertadrywall.com/products/dewalt-21-60v-max-single-stage-snow-blower-kit",
+          "price": 1099,
+          "was": null,
+          "stock": "Refurbished by DeWalt — 3 in stock at 6030 50 St NW, Edmonton; Home Depot lists the new DCSNP2142Y2-CA at $1,299",
+          "history": [
+            [
+              "2026-09-20",
+              1099.0
+            ],
+            [
+              "2026-09-21",
+              1099.0
+            ],
+            [
+              "2026-09-22",
+              1099.0
+            ],
+            [
+              "2026-09-23",
+              1099.0
+            ],
+            [
+              "2026-09-24",
+              1099.0
+            ],
+            [
+              "2026-09-25",
+              1099.0
+            ],
+            [
+              "2026-09-26",
+              1099.0
+            ]
+          ]
+        },
+        {
+          "name": "60V FlexVolt backpack blower — bare tool",
+          "model": "DCBL570B",
+          "sku": "1001907194",
+          "url": "https://www.homedepot.ca/product/dewalt-60v-flexvolt-backpack-blower-tool-only/1001907194",
+          "price": 698,
+          "was": 759,
+          "stock": "0 on the shelf at Windermere, but free ship to store; 8% off",
+          "history": [
+            [
+              "2026-09-21",
+              698.0
+            ],
+            [
+              "2026-09-22",
+              698.0
+            ],
+            [
+              "2026-09-23",
+              698.0
+            ],
+            [
+              "2026-09-24",
+              698.0
+            ],
+            [
+              "2026-09-25",
+              698.0
+            ],
+            [
+              "2026-09-26",
+              698.0
+            ]
+          ]
+        },
+        {
+          "name": "60V MAX 1000 PSI power cleaner — bare tool",
+          "model": "DCPW1000B",
+          "sku": "1001857145",
+          "url": "https://www.homedepot.ca/product/dewalt-dw-60v-max-1000-psi-power-cleaner-kit-tool-only/1001857145",
+          "price": 298,
+          "was": 329,
+          "stock": "In stock at Windermere — aisle 1, bay 014; 5 on the shelf; 9% off",
+          "history": [
+            [
+              "2026-09-21",
+              298.0
+            ],
+            [
+              "2026-09-22",
+              298.0
+            ],
+            [
+              "2026-09-23",
+              298.0
+            ],
+            [
+              "2026-09-24",
+              298.0
+            ],
+            [
+              "2026-09-25",
+              298.0
+            ],
+            [
+              "2026-09-26",
+              298.0
+            ]
+          ]
+        },
+        {
+          "name": "26\" hedge trimmer — bare tool",
+          "model": "DCHT870B",
+          "sku": "1001688484",
+          "url": "https://www.homedepot.ca/product/dewalt-60v-max-fv-lithium-ion-brushless-cordless-26-inch-hedge-trimmer-tool-only/1001688484",
+          "price": 268,
+          "was": 328,
+          "stock": "In stock at Windermere — aisle 1, bay 014; 5 on the shelf; 18% off",
+          "history": [
+            [
+              "2026-09-22",
+              268.0
+            ],
+            [
+              "2026-09-23",
+              268.0
+            ],
+            [
+              "2026-09-24",
+              268.0
+            ],
+            [
+              "2026-09-25",
+              268.0
+            ],
+            [
+              "2026-09-26",
+              268.0
+            ]
+          ]
+        },
+        {
+          "name": "15\" string trimmer — bare tool",
+          "model": "DCST970B",
+          "sku": "1001537503",
+          "url": "https://www.homedepot.ca/product/dewalt-60v-max-flexvolt-lithium-ion-cordless-brushless-15-inch-string-trimmer-tool-only/1001537503",
+          "price": 269,
+          "was": null,
+          "stock": "Not sold in-store — free delivery; $10 under Alberta Drywall's DCST970X1 bare tool",
+          "history": [
+            [
+              "2026-09-22",
+              269.0
+            ],
+            [
+              "2026-09-23",
+              269.0
+            ],
+            [
+              "2026-09-24",
+              269.0
+            ],
+            [
+              "2026-09-25",
+              269.0
+            ],
+            [
+              "2026-09-26",
+              269.0
+            ]
+          ]
+        },
+        {
+          "name": "Handheld axial blower — bare tool",
+          "model": "DCBL770B",
+          "sku": "1001511829",
+          "url": "https://www.homedepot.ca/product/dewalt-60v-max-flexvolt-lithium-ion-cordless-brushless-handheld-leaf-blower-tool-only/1001511829",
+          "price": 239,
+          "was": null,
+          "stock": "Not sold in-store — free delivery; $58 under Alberta Drywall's DCBL770X1 bare tool",
+          "history": [
+            [
+              "2026-09-22",
+              239.0
+            ],
+            [
+              "2026-09-23",
+              239.0
+            ],
+            [
+              "2026-09-24",
+              239.0
+            ],
+            [
+              "2026-09-25",
+              239.0
+            ],
+            [
+              "2026-09-26",
+              239.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "husky",
+      "retailer": "Home Depot",
+      "name": "Husky Mobile Workbench — 61\" &amp; 72\"",
+      "rule": "Flag 61\" ≤ $999 · 72\" ≤ $1,399",
+      "unit": null,
+      "items": [
+        {
+          "name": "61\" · 10-drawer standard-duty · plastic bin storage drawer · gloss white",
+          "model": "H61MWC10SRWHT",
+          "sku": "1001581627",
+          "url": "https://www.homedepot.ca/product/husky-standard-duty-61-inch-w-10-drawer-mobile-workbench-with-plastic-bin-storage-drawer-in-gloss-white/1001581627",
+          "price": 928,
+          "was": null,
+          "stock": "Out of stock at Windermere and ship-to-store has gone unavailable — paid delivery only now, Oct 1–3 at $60 per case; still the only bench inside its target",
+          "history": [
+            [
+              "2026-09-10",
+              928.0
+            ],
+            [
+              "2026-09-11",
+              928.0
+            ],
+            [
+              "2026-09-12",
+              928.0
+            ],
+            [
+              "2026-09-13",
+              928.0
+            ],
+            [
+              "2026-09-14",
+              928.0
+            ],
+            [
+              "2026-09-15",
+              928.0
+            ],
+            [
+              "2026-09-16",
+              928.0
+            ],
+            [
+              "2026-09-17",
+              928.0
+            ],
+            [
+              "2026-09-18",
+              928.0
+            ],
+            [
+              "2026-09-19",
+              928.0
+            ],
+            [
+              "2026-09-20",
+              928.0
+            ],
+            [
+              "2026-09-21",
+              928.0
+            ],
+            [
+              "2026-09-22",
+              928.0
+            ],
+            [
+              "2026-09-23",
+              928.0
+            ],
+            [
+              "2026-09-24",
+              928.0
+            ],
+            [
+              "2026-09-25",
+              928.0
+            ],
+            [
+              "2026-09-26",
+              928.0
+            ]
+          ]
+        },
+        {
+          "name": "72\" × 24\" · 15-drawer · wood top · matte black",
+          "model": "H72MWC15BLK",
+          "sku": "1001898835",
+          "url": "https://www.homedepot.ca/product/husky-heavy-duty-72-inch-w-x-24-inch-d-15-drawer-mobile-workbench-with-wood-top-in-matte-black/1001898835",
+          "price": 1548,
+          "was": 1898,
+          "stock": "Out of stock online — notify-me only; not sold in-store",
+          "status": "gone",
+          "history": [
+            [
+              "2026-09-08",
+              1548.0
+            ],
+            [
+              "2026-09-09",
+              1548.0
+            ],
+            [
+              "2026-09-10",
+              1548.0
+            ],
+            [
+              "2026-09-11",
+              1548.0
+            ],
+            [
+              "2026-09-12",
+              1548.0
+            ],
+            [
+              "2026-09-13",
+              1548.0
+            ],
+            [
+              "2026-09-14",
+              1548.0
+            ],
+            [
+              "2026-09-15",
+              1548.0
+            ],
+            [
+              "2026-09-16",
+              1548.0
+            ],
+            [
+              "2026-09-17",
+              1548.0
+            ],
+            [
+              "2026-09-18",
+              1548.0
+            ],
+            [
+              "2026-09-19",
+              1548.0
+            ],
+            [
+              "2026-09-20",
+              1548.0
+            ],
+            [
+              "2026-09-21",
+              1548.0
+            ],
+            [
+              "2026-09-22",
+              1548.0
+            ],
+            [
+              "2026-09-23",
+              1548.0
+            ],
+            [
+              "2026-09-24",
+              1548.0
+            ],
+            [
+              "2026-09-25",
+              1548.0
+            ],
+            [
+              "2026-09-26",
+              1548.0
+            ]
+          ]
+        },
+        {
+          "name": "72\" × 24\" · 15-drawer · wood top · matte grey",
+          "model": "H72MWC15GRY",
+          "sku": "1001898837",
+          "url": "https://www.homedepot.ca/product/husky-heavy-duty-72-inch-w-x-24-inch-d-15-drawer-mobile-workbench-with-wood-top-in-matte-gray/1001898837",
+          "price": 1548,
+          "was": 1898,
+          "stock": "In stock online — $146.34 delivery or free ship to Windermere; 18% off, still $149 over target",
+          "history": [
+            [
+              "2026-09-11",
+              1548.0
+            ],
+            [
+              "2026-09-12",
+              1548.0
+            ],
+            [
+              "2026-09-13",
+              1548.0
+            ],
+            [
+              "2026-09-14",
+              1548.0
+            ],
+            [
+              "2026-09-15",
+              1548.0
+            ],
+            [
+              "2026-09-16",
+              1548.0
+            ],
+            [
+              "2026-09-17",
+              1548.0
+            ],
+            [
+              "2026-09-18",
+              1548.0
+            ],
+            [
+              "2026-09-19",
+              1548.0
+            ],
+            [
+              "2026-09-20",
+              1548.0
+            ],
+            [
+              "2026-09-21",
+              1548.0
+            ],
+            [
+              "2026-09-22",
+              1548.0
+            ],
+            [
+              "2026-09-23",
+              1548.0
+            ],
+            [
+              "2026-09-24",
+              1548.0
+            ],
+            [
+              "2026-09-25",
+              1548.0
+            ],
+            [
+              "2026-09-26",
+              1548.0
+            ]
+          ]
+        },
+        {
+          "name": "72\" standard-duty · 10-drawer · solid wood top · gloss red",
+          "model": "H72MWC10RED",
+          "sku": "1001893870",
+          "url": "https://www.homedepot.ca/product/husky-standard-duty-72-inch-w-10-drawer-mobile-workbench-with-solid-wood-top-in-gloss-red/1001893870",
+          "price": 1198,
+          "was": null,
+          "stock": "Not sold in-store — delivery Oct 1–3 at $60 per case, or free ship to Windermere",
+          "history": [
+            [
+              "2026-09-09",
+              1198.0
+            ],
+            [
+              "2026-09-10",
+              1198.0
+            ],
+            [
+              "2026-09-11",
+              1198.0
+            ],
+            [
+              "2026-09-12",
+              1198.0
+            ],
+            [
+              "2026-09-13",
+              1198.0
+            ],
+            [
+              "2026-09-14",
+              1198.0
+            ],
+            [
+              "2026-09-15",
+              1198.0
+            ],
+            [
+              "2026-09-16",
+              1198.0
+            ],
+            [
+              "2026-09-17",
+              1198.0
+            ],
+            [
+              "2026-09-18",
+              1198.0
+            ],
+            [
+              "2026-09-19",
+              1198.0
+            ],
+            [
+              "2026-09-20",
+              1198.0
+            ],
+            [
+              "2026-09-21",
+              1198.0
+            ],
+            [
+              "2026-09-22",
+              1198.0
+            ],
+            [
+              "2026-09-23",
+              1198.0
+            ],
+            [
+              "2026-09-24",
+              1198.0
+            ],
+            [
+              "2026-09-25",
+              1198.0
+            ],
+            [
+              "2026-09-26",
+              1198.0
+            ]
+          ]
+        },
+        {
+          "name": "61\" × 23\" · 15-drawer · solid wood top · matte blue",
+          "model": "H61MWC15HPBLU",
+          "sku": "1001898842",
+          "url": "https://www.homedepot.ca/product/husky-heavy-duty-61-inch-w-x-23-inch-d-15-drawer-mobile-workbench-with-solid-wood-top-in-matte-blue/1001898842",
+          "price": 1198,
+          "was": null,
+          "stock": "Not sold in-store — delivery Oct 1–3 at $60 per case, or free ship to Windermere",
+          "history": [
+            [
+              "2026-09-09",
+              1198.0
+            ],
+            [
+              "2026-09-10",
+              1198.0
+            ],
+            [
+              "2026-09-11",
+              1198.0
+            ],
+            [
+              "2026-09-12",
+              1198.0
+            ],
+            [
+              "2026-09-13",
+              1198.0
+            ],
+            [
+              "2026-09-14",
+              1198.0
+            ],
+            [
+              "2026-09-15",
+              1198.0
+            ],
+            [
+              "2026-09-16",
+              1198.0
+            ],
+            [
+              "2026-09-17",
+              1198.0
+            ],
+            [
+              "2026-09-18",
+              1198.0
+            ],
+            [
+              "2026-09-19",
+              1198.0
+            ],
+            [
+              "2026-09-20",
+              1198.0
+            ],
+            [
+              "2026-09-21",
+              1198.0
+            ],
+            [
+              "2026-09-22",
+              1198.0
+            ],
+            [
+              "2026-09-23",
+              1198.0
+            ],
+            [
+              "2026-09-24",
+              1198.0
+            ],
+            [
+              "2026-09-25",
+              1198.0
+            ],
+            [
+              "2026-09-26",
+              1198.0
+            ]
+          ]
+        },
+        {
+          "name": "61\" × 23\" · 15-drawer · solid wood top · matte black",
+          "model": "H61MWC15HP",
+          "sku": "1001653248",
+          "url": "https://www.homedepot.ca/product/husky-heavy-duty-61-inch-w-x-23-inch-d-15-drawer-mobile-workbench-with-solid-wood-top-in-matte-black/1001653248",
+          "price": 1198,
+          "was": null,
+          "stock": "0 on the shelf at Windermere, but free ship to store Oct 3–5",
+          "history": [
+            [
+              "2026-09-08",
+              1198.0
+            ],
+            [
+              "2026-09-09",
+              1198.0
+            ],
+            [
+              "2026-09-10",
+              1198.0
+            ],
+            [
+              "2026-09-11",
+              1198.0
+            ],
+            [
+              "2026-09-12",
+              1198.0
+            ],
+            [
+              "2026-09-13",
+              1198.0
+            ],
+            [
+              "2026-09-14",
+              1198.0
+            ],
+            [
+              "2026-09-15",
+              1198.0
+            ],
+            [
+              "2026-09-16",
+              1198.0
+            ],
+            [
+              "2026-09-17",
+              1198.0
+            ],
+            [
+              "2026-09-18",
+              1198.0
+            ],
+            [
+              "2026-09-19",
+              1198.0
+            ],
+            [
+              "2026-09-20",
+              1198.0
+            ],
+            [
+              "2026-09-21",
+              1198.0
+            ],
+            [
+              "2026-09-22",
+              1198.0
+            ],
+            [
+              "2026-09-23",
+              1198.0
+            ],
+            [
+              "2026-09-24",
+              1198.0
+            ],
+            [
+              "2026-09-25",
+              1198.0
+            ],
+            [
+              "2026-09-26",
+              1198.0
+            ]
+          ]
+        },
+        {
+          "name": "61\" × 23\" · 10-drawer 1-door · flip-up pegboard · matte grey",
+          "model": "H61MWC10P",
+          "sku": "1001631289",
+          "url": "https://www.homedepot.ca/product/husky-heavy-duty-61-inch-w-x-23-inch-d-10-drawer-1-door-mobile-workbench-with-flip-up-pegboard-in-matte-gray/1001631289",
+          "price": null,
+          "was": null,
+          "stock": "Unavailable in your area (page model H61MWC10PBGRY)",
+          "status": "gone",
+          "history": []
+        },
+        {
+          "name": "61\" · 15-drawer · solid wood top · matte grey / carbon fibre trim",
+          "model": "H61MWC15CF",
+          "sku": "1001918489",
+          "url": "https://www.homedepot.ca/product/husky-heavy-duty-61-in-w-15-drawer-mobile-workbench-w-solid-wood-top-in-matte-gray-w-carbon-fiber-trim/1001918489",
+          "price": null,
+          "was": null,
+          "stock": "Unavailable in your area (page model H61MWC15HPGRYCF)",
+          "status": "gone",
+          "history": []
+        }
+      ]
+    }
+  ],
+  "log": [
+    {
+      "date": "2026-09-26",
+      "text": "The fourteen-day standstill finally broke, and not in Mike's favour: Amazon's DCS578B bare circular saw went from $299 to $329 as the buy box passed to Impact Distribution. Delivery is now free rather than $14.94, so the landed cost moves from $313.94 to $329, and the listing reads plain in stock rather than its last unit — the week-long risk of that row vanishing is gone, but so is the discount. It is still the cheapest bare DCS578B anywhere, $40 under Home Depot's $369 and $69 under KMS's $398. Every other price on the board held: all 36 Home Depot SKUs, all three KMS rows, both Grainger packs, Walmart's DCB612 and all seven Alberta Drywall rows, so the DCB609-2 9.0Ah 2-pack is still the best value at $23.78/Ah and the only pack inside the $24/Ah strong-buy line, and the DCB612 at $328 from both KMS and Walmart still ties as the cheapest 12Ah at $27.33/Ah. The other change is a quiet loss on the Husky side: the $928 gloss-white 61-inch bench, the only bench inside its target, has lost ship-to-store at Windermere and is now paid delivery only at $60 per case for Oct 1–3, where yesterday it shipped to the store free — it is still buyable, just $60 dearer to actually get. Smaller notes: the DCB609C kit is down to 2 on the shelf from 3, Walmart's DCB612 delivery slipped again to Mon Oct 5, and the non-tracked stainless-top H72MWC15DL at $1,682 has gone out of stock online. Nothing new earned a row — the 116-result Home Depot battery sweep put every 60V markdown on a SKU already tracked, the two Husky searches (15 and 26 results) found nothing at or under target, and Alberta Drywall's three sweeps were flat at 20, 194 and 45. Home Depot's calendar did not turn over: Must-See Deals still ends Sept 30, Pro Savings still ends Oct 7, and the Depot Drop grid still holds 35 items with no DEWALT and no Husky. Canadian Tire and Rona were re-swept and still carry no 60V FlexVolt. The Flipp sweep found the same two flyers — KMS's monthly run to Oct 1 with its two unlabelled FlexVolt items at $278 and $428, unidentified for an eighth day because their clipping images sit on a blocked host and KMS's own search page returned an empty body today, and UFA's Sept 24 – Oct 13 flyer with the DEWALT 60V 16-inch chainsaw kit at $499.99 from $579.99, which stays a lead because Home Depot has the same DCCS670X1 at $498."
+    },
+    {
+      "date": "2026-09-25",
+      "text": "A thirteenth straight day with not one tracked price moving — all 49 priced rows across Home Depot, KMS, Grainger, Walmart, Amazon and Alberta Drywall read back at their last-seen price, so the DCB609-2 9.0Ah 2-pack is still the best value on the board at $23.78/Ah and the only pack inside the $24/Ah strong-buy line, the DCB612 at $328 from both KMS and Walmart still ties as the cheapest 12Ah at $27.33/Ah, and the 61-inch gloss-white Husky at $928 is still the only bench inside its target. The movement was all in supply and all small: Home Depot's DCBL777B axial blower went from 6 on the shelf to 7, the DCCS670X1 chainsaw kit now reads limited store stock after showing 0 yesterday, the DCB6112 12Ah has a delivery option again, and the DCB612 slid back to a vague limited stock from yesterday's firm 2 with delivery still unavailable. Three shipping windows slipped a day or two — Walmart's DCB612 to Fri Oct 2, Amazon's DCS578B to Oct 8–15 and its DCB609 to Oct 7–15 — and the Amazon bare saw is still down to its last unit, which remains the sharpest risk on the board since $299 is the cheapest bare DCS578B anywhere against Home Depot's $369. Nothing new earned a row: the Home Depot battery sweep put every 60V markdown on a SKU already tracked, the two Husky searches turned up nothing at or under target on sale beyond the full-price H72MWC15DL at $1,682, and Alberta Drywall's sweeps were flat at 20 FlexVolt and 194 refurbished items with a 45-result refurbished-60V pass that found no refurbished 60V bare tool beyond the two already on the board. Home Depot's calendar did not turn over — the Must-See Deals week still ends Sept 30, the Pro Savings Event still ends Oct 7, and the 35-item Depot Drop list still has no DEWALT or Husky in it. Canadian Tire's search collapsed back to 2 results after yesterday's 18, and the answer is unchanged: 12V and 20V MAX only. Rona is the same, 100 results and one 12V/20V charger. The Flipp sweep found the same two flyers as yesterday — KMS's monthly run to Oct 1 with two unlabelled FlexVolt items at $278 and $428, unidentified for a seventh day because their clipping images sit on a host both browsers refuse, and UFA's Sept 24 – Oct 13 flyer with the DEWALT 60V 16-inch chainsaw kit at $499.99 from $579.99, which stays a lead because Home Depot has the same DCCS670X1 at $498. One data note: the tracked pole saw attachment's page carries model DWOAS6PS rather than the DWOAS8PS on this board, and the edger kit's page reads DCED472X1 rather than DCED472."
+    },
+    {
+      "date": "2026-09-24",
+      "text": "A twelfth straight day with not one tracked price moving — all 51 rows across Home Depot, KMS, Grainger, Walmart, Amazon and Alberta Drywall read back at their last-seen price, so the DCB609-2 9.0Ah 2-pack is still the best value on the board at $23.78/Ah and the only pack inside the $24/Ah strong-buy line, the DCB612 at $328 from both KMS and Walmart still ties as the cheapest 12Ah at $27.33/Ah, and the 61-inch gloss-white Husky at $928 is still the only bench inside its target. What changed is the calendar: Home Depot turned its week over, so a new online-only Must-See Deals week now runs to Sept 30, the Weekly Depot Drop list shrank from 105 items to 35 with no DEWALT or Husky in it, and a new Pro Savings Event opened ending Oct 7 whose only DEWALT offers are 20V MAX give-away bundles — no 60V FlexVolt and no Husky tool-storage pricing in any of the three. The sharpest supply note is on Amazon: the $299 DCS578B bare saw, the cheapest bare one anywhere, is down from 3 units to 1 and now quotes Oct 7–14, so it may not survive the week. Against that, two things got easier to buy — the matte-grey 72-inch heavy-duty Husky bench went from 4 available to 8 at $1,548 from $1,898 (18% off, still $149 over the $1,399 line), and the DCCS670X1 chainsaw kit has ship-to-store back with 3 held at Windermere after reading delivery-only. The 61-inch gloss-white bench is thinning the other way, down to 3 online with none on the shelf. No new SKU earned a row: Home Depot's battery search (115 items) put its only markdowns on SKUs already tracked, the two Husky searches turned up nothing under target on sale beyond one new full-price H72MWC15DL at $1,682, and Alberta Drywall's sweeps grew to 20 FlexVolt and 194 refurbished items with a narrower refurbished-60V pass on top, which found no refurbished 60V bare tool beyond the two already on the board. Canadian Tire's search came back to full width after three days stuck at 2 results — 18 hits for \"dewalt 60v\", 65 for the battery search — and the answer is unchanged: every DEWALT item is 12V or 20V MAX, and the only 60V packs are Greenworks and EGO. Rona is the same, 100 results and one 12V/20V charger. The Flipp sweep found UFA Co-operative's flyer rolled into a new run, Sept 24 – Oct 13, still carrying the DEWALT 60V 16-inch chainsaw kit at $499.99 from $579.99, which stays a lead rather than a row because Home Depot has the same DCCS670X1 at $498. KMS's monthly flyer still carries the same two unlabelled FlexVolt items at $278 and $428, unidentified for a sixth day because their clipping images sit on a host both browsers refuse."
+    },
+    {
+      "date": "2026-09-23",
+      "text": "An eleventh straight day with almost nothing moving on price, and the one exception is cosmetic: Amazon's DCB609 buy box passed back from savingsculture to Impact Distribution, so the listed price rises from $328.50 to $334 but delivery is free again and the landed cost is the same $334 it has been since Sept 12 — and the listing is no longer down to its last unit. Every other tracked row at Home Depot, KMS, Grainger, Walmart, Amazon and all seven Alberta Drywall rows read back at its last-seen price, so the DCB609-2 9.0Ah 2-pack is still the best value on the board at $23.78/Ah and the only pack inside the $24/Ah strong-buy line, and the 61-inch gloss-white Husky at $928 is still the only bench inside its target. The day's good news is a restock: the matte-grey 72-inch heavy-duty Husky bench is buyable again at $1,548 from $1,898 with 4 available and free ship to Windermere, after five days marked gone — it is 18% off but still $149 above the $1,399 line, and the matte-black twin is still notify-me only. Home Depot's shelf also refilled on the DCB606, back from 0 to 3 at Windermere, though the DCB612 has slipped to limited stock with delivery unavailable and three online counts thinned (the DCBL777Y1 blower kit 25 to 18, the DCST970B trimmer 15 to 10, the DCST972B 45 to 43). No new SKU was worth adding: the Home Depot battery search put its only DeWalt markdowns on 20V packs, both Husky workbench searches turned up nothing under target on sale, and Alberta Drywall's sweeps grew to 19 FlexVolt and 179 refurbished items whose only additions — a refurbished DCV585T2R dust extractor kit at $735 and a full-price DCS577 worm-drive saw at $785 — are both beaten by rows already tracked. Two event notes: the online-only Must-See Deals week ends today, and a DEWALT MAX POWER brand event has opened at Home Depot that is entirely 20V MAX, with no 60V FlexVolt and no Husky tool storage in it. The Flipp sweep found a second flyer carrying 60V for the first time — UFA Co-operative, flyer 8139832 running to Oct 13, with a DEWALT 60V Max 16-inch chainsaw kit at $499.99 from $579.99 — but that is $1.99 above Home Depot's price for the same DCCS670X1 kit and 14% off, so it is a lead rather than a row. KMS's monthly flyer still carries the same two unlabelled FlexVolt items at $278 and $428, and they stay unidentified: the clipping images sit on f.wishabi.net, which was refused by both Chrome and the built-in browser today. Canadian Tire and Rona were re-swept and still carry no 60V FlexVolt at all."
+    },
+    {
+      "date": "2026-09-22",
+      "text": "The ten-day standstill broke, though on the wrong side: Amazon's DCS578B bare circular saw jumped from $269 to $299 after Power Tools Inc's offer disappeared, and the new buy box adds $14.94 delivery on top, so the cheapest bare DCS578B anywhere is now $299 against Home Depot's $369 and KMS's $398. On the same site the DCB609 buy box passed from Impact Distribution to savingsculture at $328.50 with $5.50 shipping and a single unit left — a $5.50 cut on paper that lands at exactly the same $334. Every other price on the board held, so the DCB609-2 9.0Ah 2-pack is still the best value at $23.78/Ah and the 61-inch gloss-white Husky at $928 is still the only bench inside its target, though it is down to 4 left online with none on the Windermere shelf. The day's find is a real flag: Home Depot's DCHT870B 26-inch hedge trimmer bare tool at $268 from $328 — 18% off, clearing the group's 15% line, with 5 on the shelf at Windermere — and two more bare 60V tools were added because they undercut rows already tracked, the DCBL770B blower at $239 against Alberta Drywall's $297 and the DCST970B 15-inch trimmer at $269 against its $279. A correction worth recording: the Home Depot store id used on the last run, 7024, is Barrie, not Windermere — Windermere is 7268 — so yesterday's Home Depot shelf counts were another store's, and today's were re-read against the right one. Everything else was quiet: KMS, Grainger and all seven Alberta Drywall rows held on price and stock, Walmart read cleanly and confirms the DCB612 at $328, both 72-inch heavy-duty Husky benches are still out, the Depot Drop week still runs to Sept 23 with no 60V or Husky pricing in it, and the Flipp sweep again found only KMS's monthly flyer with the same two unlabelled FlexVolt items at $278 and $428. Canadian Tire and Rona were re-swept and still carry no 60V FlexVolt at all."
+    },
+    {
+      "date": "2026-09-21",
+      "text": "A ninth straight day without a single tracked price moving — every row the sweep could read came back at its last-seen price, so the DCB609-2 9.0Ah 2-pack is still the best value on the board at $23.78/Ah and the 61-inch gloss-white Husky at $928 is still the only bench inside its target. The day's real change is a loss: the matte-grey 72-inch heavy-duty Husky bench has gone out of stock online again, putting both 72-inch heavy-duty colours off the board and leaving the standard-duty gloss red at $1,198 as the only 72-inch still buyable. Home Depot's search grid refused to render, so the sweep ran through the site's own search API with the store set to Windermere, and it turned up two bare 60V tools the watch had been missing — the DCBL570B backpack blower at $698 from $759 and the DCPW1000B power cleaner at $298 from $329 — both added, though at 8% and 9% off neither clears the 15% line. Walmart read cleanly after yesterday's bot check and confirms the DCB612 at $328 from Preston Hardware, so that row is verified again, while the Amazon bare saw thinned from 4 units to 3 and both 61-inch Husky benches now read 0 on the Windermere shelf though both still ship to store free. Canadian Tire, Rona, KMS, Grainger and Alberta Drywall were all re-swept with nothing new: Canadian Tire's \"dewalt 60v\" search returned only 2 items today against 140 on earlier runs, but the answer is the same — no 60V FlexVolt anywhere in its range. The Flipp sweep again found only KMS's monthly flyer (Sept 1 – Oct 1) with two unlabelled FlexVolt items at $278 and $428 that still cannot be identified."
+    },
+    {
+      "date": "2026-09-20",
+      "text": "Eighth straight day without a price move — every row the sweep could read came back at its last-seen price, so the DCB609-2 9.0Ah 2-pack is still the best value on the board at $23.78/Ah and the 61-inch gloss-white Husky at $928 is still the only bench inside its target. The day's finds are both at Alberta Drywall: the bare-tool option of the DCST970X1 60V string trimmer at $279 with 4 in stock, which undercuts Home Depot's DCST972B bare trimmer by $20, and a DeWalt-refurbished 21-inch single-stage snow blower kit at $1,099 with 3 in stock, $200 under Home Depot's new DCSNP2142Y2-CA — a refurbished 60V tool, so it clears the group's clearance rule outright. Supply kept thinning at the edges: the Amazon bare saw is down from 5 units to 4, Home Depot's own DCS578B is down to a single unit at Windermere, and KMS slipped from 13 to 12 on the same saw at Abbotsford. Walmart could not be read — its DCB612 listing answered with a press-and-hold bot check, so that row is carried forward at $328 and marked unverified. Home Depot's Must-See Deals week is the same one running to Sept 23, and its 105-item Depot Drop list still holds exactly one DeWalt entry, a construction tripod at $89.25 from $119. The Flipp sweep again found only KMS's monthly flyer (Sept 1 – Oct 1) with two unlabelled FlexVolt items at $278 and $428 that still cannot be identified. Canadian Tire and Rona were both re-swept and still carry no 60V FlexVolt at all."
+    },
+    {
+      "date": "2026-09-19",
+      "text": "Seventh straight day without a price move — every tracked row read back at its last-seen price, so the DCB609-2 9.0Ah 2-pack is still the best value on the board at $23.78/Ah and the 61-inch gloss-white Husky at $928 is still the only bench inside its target. The good news is a restock: the matte-grey 72-inch heavy-duty Husky bench is buyable again at $1,548 from $1,898, with an add-to-cart, delivery Sept 24–26 and free ship to Windermere, after reading out of stock yesterday — it is 18% off but still $149 above the $1,399 line, and the matte-black twin is still out. Widening the Alberta Drywall sweep added two 60V bare tools: a DeWalt-refurbished DCD130 mixer/drill bare tool at $279 with a single unit left, which clears the group's clearance rule outright and undercuts the same store's new DCD130 by $84.60, and the bare-tool option of the DCBL770X1 handheld blower at $297 with 3 in stock, against $499 for the kit. Supply kept thinning at the edges — the Amazon bare saw is down from 6 units to 5, and Walmart's DCB612 delivery slipped from Sept 25 to Sept 28 — while KMS is unchanged, still sold out at its lead store on the DCB612 and still $328 and $398 under MAP pricing. Home Depot's Must-See Deals week is the same one running to Sept 23, its only DeWalt entry a construction tripod at $89 from $119, with no 60V or Husky tool-storage pricing and the flyer widget rendering nothing again. Canadian Tire and Rona were both re-swept and still carry no 60V FlexVolt at all."
+    },
+    {
+      "date": "2026-09-18",
+      "text": "Sixth straight day without a price move — every tracked row read back at its last-seen price, so the DCB609-2 9.0Ah 2-pack is still the best value on the board at $23.78/Ah and the 61-inch gloss-white Husky at $928 is still the only bench inside its target. The real news is a loss: the matte-grey 72-inch heavy-duty Husky bench has gone out of stock online and is not sold in-store, which puts both 72-inch heavy-duty colours off the board and leaves the lighter standard-duty gloss red at $1,198 as the only 72-inch still buyable. Widening the Alberta Drywall sweep paid off with two 60V bare tools Home Depot does not list: a DCS388 FlexVolt reciprocating saw at $309.99 with 3 in stock, $59 under Home Depot's DCS389B, and a DeWalt-refurbished DCV585B dust extractor bare tool at $395 with 5 in stock — a refurbished bare tool, which clears the group's clearance rule outright. A third Alberta Drywall listing, a $315 \"Flex Volt 60V 7¼-inch circular saw\" carrying model code DCD575, was deliberately left off: the code and the quoted specs both read like a 20V saw, and it needs confirming before it goes on the board. Supply thinned around the edges — the Amazon bare saw is down from 7 units to 6 with delivery pushed to Sept 24–28, the Amazon DCB609 slipped again to Sept 29 – Oct 7, and KMS now reads sold out at its lead store on the DCB612 after showing 10 yesterday, though it is still in stock online. Home Depot's Must-See Deals week is the same one, running to Sept 23, with no DeWalt 60V or Husky tool-storage pricing surfacing and the flyer widget rendering nothing again. Canadian Tire and Rona were both re-swept and still carry no 60V FlexVolt at all."
+    },
+    {
+      "date": "2026-09-17",
+      "text": "Fifth straight day with no price movement — every tracked row read back at its last-seen price, so the DCB609-2 9.0Ah 2-pack is still the best value on the board at $23.78/Ah and the 61-inch gloss-white Husky at $928 is still the only bench inside its target. Two new Home Depot SKUs joined the 60V group, neither of them flagging: the DCBL777Y1 760 CFM blower kit with a 12Ah pack at $499 at regular price, and the DCCS670X1 16-inch chainsaw kit at $498 from $579 — 14% off, just under the 15% line, and out of stock at Windermere with delivery only. Stock read better than yesterday: the Home Depot DCS578B is back to plain in-stock after showing a single unit, and the battery shelf counts at Windermere are 5 on the DCB606-2, 4 on the DCB609-2 and 3 each on the DCB609 and DCB609C. Against that the Amazon bare saw slipped from 8 units to 7 and the Amazon DCB609 pushed its window out again to Sept 28 – Oct 6. A new online-only Must-See Deals week opened today and runs to Sept 23, but its Depot Drop list holds no DeWalt 60V and no Husky tool storage, and the flyer widget rendered nothing again. Canadian Tire and Rona were both re-swept and still carry no 60V FlexVolt. Later the same day the sweep was widened on Mike's go-ahead. Alberta Drywall & Stucco Supply, an Edmonton contractor supplier at 6030 50 St NW, joined the board with the DCB606 6.0Ah at $175 in stock for 24-hour pickup — $23 under Home Depot's sale price and the cheapest DCB606 anywhere on the watch, though at $29.17/Ah it still sits outside the $28/Ah flag. Grainger Canada joined with two packs on a markdown that runs to Oct 30: DCB606 $205.99 from $350.94 and DCB612 $345.99 from $518.71. Home Hardware, CanuckTools, Federated Tool, Atlas Machinery, Contractor Cave and NAPA Canada were all checked and skipped — each at or above prices already tracked, with CanuckTools and Federated Tool returning identical prices on identical pages and almost certainly one operator behind two storefronts."
+    },
+    {
+      "date": "2026-09-16",
+      "text": "Fourth straight day with no price movement — every one of the 35 tracked rows read back at its last-seen price, so the DCB609-2 9.0Ah 2-pack is still the best value on the board at $23.78/Ah and the 61-inch gloss-white Husky at $928 is still the only bench inside its target. The one real change is a restock: the 61-inch heavy-duty bench in matte black is back at Windermere with a single unit and free pickup from today, after reading 0 and delivery-only yesterday. Stock is thinning elsewhere — the DCB612 12Ah is now out of stock online with only limited store stock, the Home Depot DCS578B is down to 1 at Windermere, and the Amazon bare saw has slipped from 9 units to 8 with its window pushed to Sept 22–24 while the Amazon DCB609 now quotes Sept 25 – Oct 5. Walmart read cleanly this time and confirms the DCB612 at $328 from Preston Hardware, so that row is verified again. Home Depot's online-only Must-See Deals week ends today with no DeWalt 60V or Husky tool-storage pricing in it; Canadian Tire and Rona were both re-swept and still carry no 60V FlexVolt at all."
+    },
+    {
+      "date": "2026-09-15",
+      "text": "Third straight day without a single price move — every price the sweep could read held, so the DCB609-2 9.0Ah 2-pack is still the best value on the board at $23.78/Ah and the 61-inch gloss-white Husky at $928 is still the only bench inside its target. Two bare 60V brushless tools joined the watch from Home Depot's search, both at regular price and neither flagging: the DCED472B attachment-capable edger at $299, which is $150 under the DCED472 kit already tracked, and the DCS520B 6½-inch tracksaw at $589 with stock at Windermere in aisle 16, bay 006. Small movements around the edges: the DCB6112 12Ah pack has a delivery option again (Sept 16) after showing none, the 61-inch matte-black bench now reads 0 at Windermere and is delivery-only with ship-to-store still unavailable, and the Amazon DCB609 has slipped another week to Sept 24 – Oct 2 while the bare saw there holds at $269 with 9 left. Canadian Tire and Rona are unchanged — no 60V FlexVolt at either. Two sites could not be read today: Walmart.ca answered with a press-and-hold bot check, so its DCB612 row is carried forward from Sept 14 and marked unverified, and Home Depot's flyer widget again rendered nothing, though the Specials page still shows the online-only Must-See Deals week ending Sept 16 with no DeWalt 60V or Husky tool-storage event pricing."
+    },
+    {
+      "date": "2026-09-14",
+      "text": "Second straight day with no price movement — all 28 tracked items held, so the DCB609-2 9.0Ah 2-pack is still the best value on the board at $23.78/Ah and the 61-inch gloss-white Husky at $928 is still the only bench inside its target. The news is a restock: the 72-inch heavy-duty Husky bench in matte grey is back after two days out, 9 available with delivery Sept 18–20 or free ship to Windermere, still $1,548 from $1,898 — 18% off but well above the $1,399 line — while the matte-black twin remains out of stock online. Two new SKUs joined the sweep, both at regular price and neither flagging: the DCBL777B 780 CFM axial blower, a bare 60V tool at $349 with 5 on the shelf at Windermere, and the DCB609G oil-resistant 9.0Ah pack at $359, which is $20 over the plain DCB609 and a poor $39.89/Ah. Smaller notes: the tracked 61-inch matte-black bench has lost ship-to-store at Windermere and is delivery-only now, the Amazon bare saw is down to 9 units with its window pushed to Sept 18–22, and Canadian Tire and Rona are unchanged — still no 60V FlexVolt at either. Home Depot's flyer widget would not render today, so no flyer dates were read."
+    },
+    {
+      "date": "2026-09-13",
+      "text": "Not one tracked price moved today — all 28 items held, including DCB606 at $198, DCB609-2 at $428 and still the best value on the board at $23.78/Ah, and the 61-inch gloss-white Husky at $928, the only bench inside its target. What the sweep did turn up is three bare 60V brushless tools that Home Depot stocks at Windermere and the watch had been missing: the DCS578B circular saw at $369, the DCS389B reciprocating saw at $369, and the DCG418B grinder at $329, all three sitting in aisle 16, bay 004 and all at regular price, so none of them flag. The Home Depot DCS578B is the useful one, because it finally gives the Amazon listing a same-tool reference point and shows that $269 is $100 under the shelf price here. Worth noting but not tracked: DeWalt's 4-port 12V/20V/FlexVolt fast charger is cut to $228 from $349 — 35% off — at both Home Depot and Rona, but it's a charger, not a pack. Both 72-inch heavy-duty Husky benches are still out of stock online, the Amazon bare saw is down to 9 units, and Canadian Tire remains 12V/20V MAX only."
+    },
+    {
+      "date": "2026-09-12",
+      "text": "One real price cut and one supply loss. The Amazon listing for the DCS578B bare circular saw dropped from $278 to $269 — still Power Tools Inc, still only 10 left — which puts it $129 under KMS for the same bare tool. Against that, the 72-inch Husky bench is now effectively off the board: the matte-grey twin that replaced the black one yesterday has itself gone out of stock online, so both 72-inch heavy-duty colours are unavailable and the only 72-inch left is the lighter standard-duty gloss red at $1,198. Home Depot's search also turned up two SKUs worth tracking — a newer DCB6112 12Ah pack at $429 that is actually in stock at Windermere (aisle 16) while the older DCB612 has gone out of stock online, and the DCS781B bare 12-inch sliding miter saw at $969, which makes the $999 kit with a 9Ah battery and charger the obvious buy at $30 more. Everything else held: DCB606 $198, DCB609-2 $428 and still the best value at $23.78/Ah, DCB612 $328 at both KMS and Walmart. No target was newly cleared. Canadian Tire is still 12V/20V MAX only and Rona still lists no 60V packs."
+    },
+    {
+      "date": "2026-09-11",
+      "text": "Two additions and one restock, but no tracked price moved. Home Depot's own search surfaced the DCS781X1 12-inch FlexVolt sliding miter saw kit at $999, down from $1,249 — a 20% cut that clears the group's 15% line — and a matte-grey twin of the 72-inch Husky bench (H72MWC15GRY) at $1,548, was $1,898, which matters because the tracked matte-black version went out of stock online today and is not sold in stores, so the grey is now the only way to get that bench. The 61-inch heavy-duty bench in matte black is back in stock at $1,198 after three days listed out. Everything else held: DCB606 at $198 (24% off), DCB609-2 at $428 and still the best value on the board at $23.78/Ah, DCB612 at $328 from both KMS and Walmart, and the Amazon DCS578B bare saw at $278 with 10 left. Canadian Tire is still 12V/20V MAX only; Rona's search did submit today via the magnifier button and returned 23 DEWALT items with no 60V packs."
+    },
+    {
+      "date": "2026-09-10",
+      "text": "Best find since the watch opened: a genuine DeWalt DCS578B 7¼\" FlexVolt bare saw on Amazon.ca at $278 — $91 under Home Depot's own listing for the same tool and $120 under KMS — though it ships from marketplace seller Power Tools Inc with only 10 left, so it may not hold. Home Depot's own search also surfaced two SKUs the watch had been missing: the DCST972B bare string trimmer at $299, and a Husky standard-duty 61\" 10-drawer bench in gloss white at $928, the first bench to clear the $999 line for a 61\" — it's a lighter build than the tracked heavy-duty ones, but it's in stock and ships free to Windermere. Nothing tracked actually moved: DCB606 held at $198 (24% off), DCB609-2 at $428, DCB609C at $348, and the 72\" Husky at $1,548. Depot Deal Days has ended — a new flyer runs Sept 10–23 alongside an online-only Must-See Deals week to Sept 16. Canadian Tire is still 12V/20V MAX only, and Rona's search box would not submit today."
+    },
+    {
+      "date": "2026-09-09",
+      "text": "Widened the sweep past Home Depot and found the first real gap. The DCB612 12.0Ah is $328 at both KMS Tools and Walmart.ca — $91 under Home Depot's $419, and $27.33/Ah, inside the flag line. KMS turns out to be a full FlexVolt dealer with an Edmonton store: its DCB606 ($198) and DCB609 ($339) tie Home Depot exactly, its 9.0Ah 2-pack ($479) is worse, but it carries bare 60V tools Home Depot doesn't list, so the DCS578B circular saw at $398 and a clearance DCBL772X1 blower kit at $418 are now on the board. The Walmart listing is marketplace, sold and shipped by Preston Hardware. Best Buy Canada was checked and returns nothing for FlexVolt; Costco.ca, Acklands-Grainger and Atlas Machinery could not be reached, and Home Hardware's site would not run a search."
+    },
+    {
+      "date": "2026-09-09",
+      "text": "No tracked price actually moved today, but two things changed on the page. The DCB609-2 9.0Ah 2-pack picked up a markdown badge — $428, was $479 — which makes it the best value on the board at $23.78/Ah, inside the $24/Ah strong-buy line. The DCED472 edger kit finally returned a price ($449, online only), and three new SKUs joined the sweep: the DCB609C 9.0Ah battery-and-charger kit at $348 (was $398), the standard-duty 72\" 10-drawer Husky bench in gloss red at $1,198 — under the $1,399 target for a 72\", though it's a lighter build than the tracked heavy-duty one — and the 61\" 15-drawer heavy-duty bench in matte blue at $1,198, the same bench as the black one that's been out of stock. Canadian Tire and Rona were both re-swept and still carry no 60V FlexVolt; Amazon.ca turns up only third-party replacement packs."
+    },
+    {
+      "date": "2026-09-08",
+      "text": "Canadian Tire added to the daily sweep. Checked it the same day and it carries no 60V FlexVolt at all — the DeWalt battery range there is 12V and 20V MAX only, and the one \"FLEXVOLT\" hit is a USB charging accessory, not a 60V pack. No Husky either, since that's a Home Depot house brand. It stays on the sweep in case the range changes or a DeWalt promo lands."
+    },
+    {
+      "date": "2026-09-08",
+      "text": "Watchlist opened. Baseline pulled from Home Depot Canada with the store set to Edmonton Windermere. Two live markdowns on day one: the DCB606 6.0Ah battery at 24% off and the 72\" Husky bench at 18% off. Rona/Lowe's search returned nothing for FlexVolt; Amazon.ca to be added as a cross-check on the next run."
+    }
+  ]
+}

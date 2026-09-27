@@ -2,7 +2,7 @@
 type: infrastructure
 status: active
 tags: [40two, cloudways, wordpress]
-updated: 2026-09-14
+updated: 2026-09-21
 ---
 
 
@@ -29,3 +29,4 @@ Managed WP hosting + maintenance: published Sep 2026 as Hosting & Maintenance $8
 - 2026-09-07 — Weekly check: all 3 servers healthy (CS-1 disk 65%); 4 apps with critical vulns (WP core RCE 9.1, ManageWP Worker auth bypass 9.8, AIO WP Migration RCE 8.8): OLD-insulationsnakes.com, Cold-fix.com, simplysuperfly.com (CS-2 duplicate), rsbjr.ca. Copilot insights need a subscription.
 - 2026-09-14 — Weekly check: all 3 servers healthy (CS-1 disk 65.5%, CPU ≤10%). Same 4 apps still unpatched a week on: OLD-insulationsnakes.com (25 vulns, incl. exploited AIO WP Migration RCE), Cold-fix.com (16), simplysuperfly.com CS-2 duplicate (16), rsbjr.ca (4). Minor: Canlinepipeline.com AIO Unlimited Ext, Shift.Support inactive Health Check, Great Circle Solar inactive AIO Unlimited Ext. Involvi.ca now live on CS-2 (Sep 9). ManageWP "new collaborator added" email Sep 8 — unverified.
 - 2026-09-14 — Hosting & licence audit (artifact "40Two Hosting & Licence Audit"): unbilled apps are DDTC (since 2023-06), involvi.ca (since 2026-09-09) and the insulationsnakes.com WP site (only QuotePro $442/mo billed); simplysuperfly.com WP copy on CS-2 is an orphan; Elementor Pro Expert licence also carries 3 TNN sites; ThemePunch, LayerSlider and Motion.page subscriptions are not recovered from any client.
+- 2026-09-21 — Weekly check: all 3 servers healthy (CS-1 disk 66%, CPU ≤10%). NEW: Involvi.ca Forminator 1.57.2 (9.1, actively exploited) — patch today. Same 4 apps still unpatched a third week: OLD-insulationsnakes.com (25), Cold-fix.com (16, ManageWP Worker 9.8), simplysuperfly.com CS-2 duplicate (16), rsbjr.ca (5). WP 7.1.1 auto-updates landed on svmrestore, Superfly (CS-1), DDTC. Copilot insights still 403.

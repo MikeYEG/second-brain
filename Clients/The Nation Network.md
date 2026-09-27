@@ -3,7 +3,7 @@ type: client
 status: active
 tags: [tnn]
 aliases: [TNN, OilersNation, Daily Faceoff]
-updated: 2026-09-04
+updated: 2026-09-26
 ---
 
 
@@ -20,3 +20,4 @@ Recurring one-on-ones on Mike's calendar are TNN-related (not Shift): Jarrod & M
 
 ## Log
 - 2026-09-04 — Nation Experiences Shopify theme restyled toward Contiki; first pass pushed to the demo store.
+- 2026-09-26: DFO app concepts, POC PRD and `dailyfaceoff-app` repo; see [[Daily Faceoff App]].

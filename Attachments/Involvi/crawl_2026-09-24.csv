@@ -1,0 +1,39 @@
+url,status,type,title_len,meta_desc,h1_count,h2_count,images,images_no_alt,words,published,modified,notes
+/,200,page,78,yes,1,2,11,10,1085,,2026-07-29,title slightly long
+/about-us/,200,page,78,duplicate-of-home,0,23,8,8,2119,,2026-08-27,title+meta duplicate homepage
+/additional-hr-services/,200,page,32,yes,0,3,12,10,1359,,2026-07-14,
+/blog/,200,page,14,yes,0,3,7,7,652,,2024-02-01,meta typo "reltated"
+/careers/,200,page,17,yes,0,3,8,7,782,,2026-08-27,broken sentence "please to submit your resume"
+/compensation-review/,200,page,29,yes,0,3,14,14,1066,,2026-07-15,
+/contact-us/,200,page,20,yes,0,3,4,4,765,,2026-09-09,
+/elementor-6/,200,page,36,no,1,2,4,4,443,,2023-07-11,placeholder page indexed
+/hr-health-check/,200,page,25,yes,0,3,12,10,1258,,2026-09-09,lead magnet routes to MS Forms
+/hr-support/,200,page,20,yes,0,3,11,9,1263,,2026-07-14,
+/learning-and-development/,200,page,34,yes,0,3,13,11,1620,,2026-07-14,
+/recruitment-packages/,200,page,30,yes,0,3,11,9,1291,,2026-07-14,not in main nav
+/resources/,200,page,19,yes,0,3,14,12,961,,2026-07-14,duplicate video card
+/sample-page/,200,page,35,no,1,2,4,4,598,,,WordPress default page indexed
+/3-hr-strategies-your-company-may-have-overlooked-our-guide/,200,post,84,no,0,7,5,5,1190,2023-12-14,2023-12-14,
+/4-strategies-to-combat-employee-turnover-in-your-workplace/,200,post,82,no,0,8,5,5,1135,2023-12-14,2023-12-14,
+/4-ways-to-improve-employee-engagement-in-your-company/,200,post,77,no,0,8,5,5,1182,2023-12-14,2023-12-14,
+/5-reasons-every-business-needs-an-anonymous-whistleblower-line/,200,post,86,no,0,9,5,5,1147,2023-12-14,2023-12-14,
+/5-ways-performance-reviews-can-help-your-business/,200,post,73,no,0,9,5,4,1074,2023-08-23,2023-12-14,
+/a-simple-guide-to-integrating-successful-talent-management/,200,post,82,no,0,7,5,5,1104,2023-08-23,2023-12-14,
+/ac-orci-phasellus-egestas/,200,post,84,no,0,7,5,5,1161,2023-08-23,2023-12-14,lorem ipsum slug (3 Ways HR is Integral to Successful M&A)
+/bill-32-what-does-it-mean-for-your-employment-standards/,200,post,82,no,0,6,5,5,1287,2023-08-23,2023-12-14,
+/employers-during-a-crisis-employees-are-your-assets/,200,post,76,no,0,3,4,4,1316,2023-12-14,2024-04-29,
+/heres-why-a-defendable-pes-is-important-for-your-company/,200,post,81,no,0,6,5,5,1015,2023-12-14,2023-12-14,
+/how-outsourcing-hr-services-can-help-your-business/,200,post,74,no,0,5,5,5,1186,2023-08-23,2023-12-14,
+/how-to-conduct-an-hr-skills-gap-analysis-our-guide/,200,post,76,no,0,8,5,5,1132,2023-12-14,2023-12-14,
+/how-to-keep-your-top-talent-during-mergers-and-acquisitions/,200,post,83,no,0,7,5,5,1224,2023-12-14,2023-12-14,
+/how-to-properly-deal-with-employee-performance-issues/,200,post,77,no,0,7,5,5,1171,2023-12-14,2023-12-14,
+/hr-advice-4-factors-that-influence-employee-turnover/,200,post,77,no,0,8,4,4,1191,2023-12-14,2023-12-14,
+/just-because-you-can-do-it-all-doesnt-mean-you-should/,200,post,79,no,0,9,5,4,1574,2023-08-23,2023-12-04,
+/nec-dui-nunc-mattis/,200,post,84,no,0,11,5,5,1062,2023-08-23,2023-12-14,lorem ipsum slug (7 Discouraging Qualities to Avoid in Performance Evaluations)
+/pharetra-et-ultrices-neque/,200,post,83,no,0,7,5,5,1180,2023-08-23,2023-12-14,lorem ipsum slug (3 SMB Questions for Determining Increased Employee Turnover)
+/terminate-with-empathy/,200,post,46,no,0,3,5,5,1457,2023-12-14,2024-04-29,
+/the-basics-of-your-employees-probationary-period-a-guide/,200,post,82,no,0,8,5,5,1130,2023-08-23,2023-12-14,
+/the-undeniable-power-of-employee-engagement-and-why-you-need-it/,200,post,87,no,0,7,5,5,1100,2023-12-14,2023-12-14,
+/top-reasons-why-employees-choose-to-quit-their-jobs/,200,post,75,no,0,7,5,5,1051,2023-12-14,2023-12-14,
+/why-companies-should-invest-in-human-resources-specialists/,200,post,82,no,0,8,5,5,1093,2023-12-14,2023-12-14,
+/why-your-company-should-prioritize-succession-planning/,200,post,78,no,0,7,5,5,1190,2023-12-14,2023-12-14,

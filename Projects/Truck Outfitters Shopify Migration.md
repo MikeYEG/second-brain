@@ -2,7 +2,7 @@
 type: project
 status: active
 tags: [40two, shopify, client-work]
-updated: 2026-09-18
+updated: 2026-09-27
 ---
 
 
@@ -23,11 +23,13 @@ Terms: 25% deposit on the custom app work and 25% deposit on the Shopify work.
 
 ## Current state
 - **Sync tool: LIVE.** Kit `0300e7c` deployed to `C:\AIMS-Sync` on the AIMS server 2026-09-13; first sync created 362 Eagle products on the new store (51wnwt0m); nightly task `AIMS Shopify Sync (eagle)` at 23:00. Export read from `E:\aims\ver72\aims-interface\website.new\webexport`. Products have no images yet (none on the server) — see Open questions.
-- **Kit `2026.09.18-06` built and signed, NOT yet installed** (2026-09-18, from `49289b3`, `master` pushed). Carries the actionable Slack message ([[2026-09-18 Sync alerts name the exact fix]]) and a `setup validate` disk-space check. Server still runs `2026.09.18-04`; rollback copy of `-04` kept in `E:\Github Repos\AIMStoShopify-kits\`.
+- **Kit `2026.09.25-01` built and signed 2026-09-25, NOT yet installed** (from `9f7d6c1`, `master` pushed). Carries email notifications ([[2026-09-24 Eagle notifications by email through Resend]] - off until a store has its `email` block and Resend key), part numbers under "not in the price export", the one-line nightly-change-files count, and headerless-sheet errors that say what the sheet holds. The server runs a build from before 2026-09-22. Install steps written 2026-09-27.
 - **Watch on the first image night:** an update carrying `files` must not duplicate media; an update without must not clear it (§15 of the runbook).
 - **Store migration / theme:** kickoff held Sep 2026.
 
 ## Open questions
+- Eagle email: Resend account, sending subdomain (`notify.40two.ca` is a placeholder) + DNS, confirm a sending key can be limited to one domain, Eagle's recipient list, and whether `TEAMS_WEBHOOK_EAGLE` comes out.
+- Measure a real night's log size on the server, to confirm the email attachment's 5 MB zip / 10 MB leave-out thresholds rarely apply.
 - Should stock quantities from AIMS be displayed on the Shopify storefront? (raised at kickoff)
 - Should a nightly run with zero uploadable images count as a failure? (today: counted + warned, exit 0)
 - Spec §20 questions for the AIMS consultant: regeneration of `full-<supplier>.csv` when supplier data changes; image folders named exactly as each sheet's `folder:` line.
@@ -44,3 +46,6 @@ Terms: 25% deposit on the custom app work and 25% deposit on the Shopify work.
 - 2026-09-13 — GO-LIVE: kit 0300e7c on the AIMS server, 362 products created, nightly task scheduled 23:00. Images pending (WinSCP seed of 223 from accessorywarehouse.ca; 209 need WCS). Decision: launch without images.
 - 2026-09-14 — Products were unpublished: built publish-on-create + `publish` catch-up, and Slack notifications per store; merged Mike's two fixes; kit 2e89a5f signed (1069 tests). Deploy + push pending.
 - 2026-09-18 — Slack message rebuilt to say exactly what to fix (part, export file, AIMS column, values, the change); `unmatched` demoted from the alerting counters. Commit `3f90fa1` (+ disk-space check `8171584`, guide `49289b3`), all pushed; kit `2026.09.18-06` signed, 1285 tests. Install pending. Decision: [[2026-09-18 Sync alerts name the exact fix]].
+- 2026-09-22 — Headerless supplier sheets now fail saying what they hold (bac02, `e30b076`); "not in the price export" lists part numbers; nightly-change-files section is one line (inside `073421a`).
+- 2026-09-24/25 — Email notifications through Resend (R41): spec + plan + 12 commits `4681fa4..9f7d6c1`, final review fixed a timeout that would drop big-log emails; pushed; kit `2026.09.25-01` signed. Decision: [[2026-09-24 Eagle notifications by email through Resend]].
+- 2026-09-27 — Install steps for kit `2026.09.25-01`.

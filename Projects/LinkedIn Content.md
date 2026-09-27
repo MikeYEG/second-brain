@@ -2,7 +2,7 @@
 type: project
 status: active
 tags: [content, linkedin]
-updated: 2026-09-14
+updated: 2026-09-23
 ---
 
 
@@ -23,6 +23,7 @@ Goal: engage with LinkedIn more, using an AI workflow that doesn't require const
 
 ## Log
 - 2026-09-14: Routine set up. Artifact published (batch 1: Google AI licensing pilot, StatCan AI adoption, Microsoft 365 price increase; Friday sample). Two scheduled tasks created.
+- 2026-09-23: Batch 3 published to the artifact in place. Drafts: Copilot Business usage-based billing default (Microsoft Partner Center, Sep 16), MSPs as acting CISO (Sophos MSP Perspectives 2026, Sep 15), publishers' AI licensing deals (Digiday Publishing Summit, Sep 17). Reading list also: Press Gazette on News UK non-human traffic, MarketScale on fractional execs as a procurement decision, Bank of Canada on business AI use.
 
 ## Links
 [[Job Search]] · [[Scheduled Briefs]]

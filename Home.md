@@ -1,6 +1,6 @@
 ---
 type: home
-updated: 2026-09-12
+updated: 2026-09-26
 ---
 
 # Home
@@ -21,12 +21,14 @@ The map of everything. Keep this page short — it's a table of contents, not a 
 - [[Job Search]] — Indeed monitoring, CTO / VP Tech roles
 - [[LinkedIn Content]] — low-friction posting workflow
 - [[MainWP Evaluation]] — replacing ManageWP
+- [[MSP Automation Company]]: 95% self-service MSP on NinjaOne + Huntress, go-live 2026-10-15
 - [[Waffle House Board]] — Facebook giveaway tracker (personal; static Vercel + JSON record)
+- [[Involvi Website Refresh]]: involvi.ca speed/SEO fixes + refresh, monthly re-audit
 - [[DeWalt & Husky Deal Watch]] — daily tool price watch (personal; Claude artifact + vault history)
+- [[Daily Faceoff App]]: DFO phone app POC (Expo + goalie alert service), repo `dailyfaceoff-app`
 
 ## Ideas & paused
 
-- [[MSP Automation Company]] — 95% self-service MSP, n8n as a Rewst alternative
 - [[ProjectPortfolio]] — project-portfol.io SaaS
 - [[AI Prompt Library]] — multi-tenant SaaS
 - [[Co-Parenting Platform]] — Next.js MVP
@@ -37,7 +39,7 @@ The map of everything. Keep this page short — it's a table of contents, not a 
 - [[Truck Outfitters]] (Eagle Manufacturing)
 - [[Disrupt Dial]] — reseller WP hosting lead
 - [[Insulation Snakes]] — dedicated Cloudways server, QuotePro app
-- [[Involvi HR]] — completed SEO/CRO project
+- [[Involvi HR]]: hosted client; site refresh proposal
 - [[Fly Fishing Manufacturer - Vancouver]] — MSP selection client
 - [[The Nation Network]] — CTO role
 
