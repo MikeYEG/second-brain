@@ -59,6 +59,7 @@ The map of everything. Keep this page short — it's a table of contents, not a 
 - [[Vault Conventions for Claude]]
 - [[40Two Standard Quote Terms]]
 - [[Scheduled Briefs]]
+- [[Resend Setup for 40two.ca]]
 
 ## Recent daily notes
 

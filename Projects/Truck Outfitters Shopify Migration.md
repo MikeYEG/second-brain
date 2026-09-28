@@ -28,7 +28,7 @@ Terms: 25% deposit on the custom app work and 25% deposit on the Shopify work.
 - **Store migration / theme:** kickoff held Sep 2026.
 
 ## Open questions
-- Eagle email: Resend account, sending subdomain (`notify.40two.ca` is a placeholder) + DNS, confirm a sending key can be limited to one domain, Eagle's recipient list, and whether `TEAMS_WEBHOOK_EAGLE` comes out.
+- Eagle email ([[Resend Setup for 40two.ca]]): Resend account, sending subdomain (`notify.40two.ca` is a placeholder) + DNS, confirm a sending key can be limited to one domain, Eagle's recipient list, and whether `TEAMS_WEBHOOK_EAGLE` comes out.
 - Measure a real night's log size on the server, to confirm the email attachment's 5 MB zip / 10 MB leave-out thresholds rarely apply.
 - Should stock quantities from AIMS be displayed on the Shopify storefront? (raised at kickoff)
 - Should a nightly run with zero uploadable images count as a failure? (today: counted + warned, exit 0)
@@ -49,3 +49,4 @@ Terms: 25% deposit on the custom app work and 25% deposit on the Shopify work.
 - 2026-09-22 — Headerless supplier sheets now fail saying what they hold (bac02, `e30b076`); "not in the price export" lists part numbers; nightly-change-files section is one line (inside `073421a`).
 - 2026-09-24/25 — Email notifications through Resend (R41): spec + plan + 12 commits `4681fa4..9f7d6c1`, final review fixed a timeout that would drop big-log emails; pushed; kit `2026.09.25-01` signed. Decision: [[2026-09-24 Eagle notifications by email through Resend]].
 - 2026-09-27 — Install steps for kit `2026.09.25-01`.
+- 2026-09-27 — Resend setup steps written: [[Resend Setup for 40two.ca]].
